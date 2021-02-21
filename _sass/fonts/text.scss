@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "text";
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/assets/fonts/text/text.woff2") format("woff2"),
+        url("/assets/fonts/text/text.woff") format("woff"),
+        url("/assets/fonts/text/text.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "text";
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("/assets/fonts/text/textItalic.woff2") format("woff2"),
+        url("/assets/fonts/text/textItalic.woff") format("woff"),
+        url("/assets/fonts/text/textItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "text";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/assets/fonts/text/textBold.woff2") format("woff2"),
+        url("/assets/fonts/text/textBold.woff") format("woff"),
+        url("/assets/fonts/text/textBold.ttf") format("truetype");
+}
