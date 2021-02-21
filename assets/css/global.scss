@@ -4,10 +4,19 @@
 @import "vars";
 @import "fonts";
 
-/*
+* {
+    box-sizing: border-box;
+}
 
-Add general SCSS here
+html {
+    background-color: $bg-color;
+    font-size: $font-size;
+    font-family: text;
+}
 
-*/
+body {
+    margin: 0 auto;
+}
 
+@import "sections";
 @import "responsive";
