@@ -6,14 +6,14 @@ title: "Bienvenue chez les Tassés de Café"
 
 ## _The Last Markdown Editor, Ever_
 
-![Tasse classique](/assets/img/tasses/TasseBlanche.svg){:class="medium"}
+![Tasse classique](/assets/img/tasses/TasseBlanche.svg){:size="big"}
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
 AngularJS-powered HTML5 Markdown editor.
 
 1. Type some Markdown on the left
 1. See HTML in the right
-1. ✨Magic ✨
+1. ✨Magic✨
 
 ## Features
 

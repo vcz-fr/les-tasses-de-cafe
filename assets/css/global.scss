@@ -39,20 +39,25 @@ main {
 }
 
 #page-content {
-    & h1 {
+    & h1,
+    & h2,
+    & h3,
+    & h4,
+    & h5,
+    & h6 {
         font-family: headings;
     }
 
-    & img.small {
+    & img[size="small"] {
         height: 24px;
     }
 
-    & img.medium {
-        height: 32px;
+    & img[size="medium"] {
+        height: 48px;
     }
 
-    & img.big {
-        height: 32px;
+    & img[size="big"] {
+        height: 64px;
     }
 }
 
