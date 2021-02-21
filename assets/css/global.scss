@@ -24,7 +24,7 @@ main {
 
 #content {
     background-color: $theme-beige;
-    width: calc(100% - #{$menu-width});
+    width: calc(100% - #{$menu-width} - 2 * #{$header-size});
     min-height: 500px;
 
     color: $theme-brown;
