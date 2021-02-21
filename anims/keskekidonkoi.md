@@ -19,7 +19,7 @@ Chris > Ah, elle se remet à réparer le plancher ! Quatrième fois aujourd'hui.
 Le Codex, arrivant bientôt > Quelle horreur.
 ```
 
-Les règles sont simples.  
+Les règles sont très complexes sa mère.  
 J'ai écrit des règles d'une animation il y a genre... longtemps et je ne les comprends plus.  
 Celui qui arrive à en tirer la meilleure animation à partir de mes... "explications" gagne l'animation.  
 Vous avez jusqu'au mardi 1er Décembre à 21 h pour envoyer votre compréhension de l'animation en MP à moi.
