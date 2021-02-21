@@ -30,6 +30,7 @@ main {
     color: $theme-brown;
 
     margin: $header-size;
+    margin-bottom: $header-size * 2;
     padding: $header-size / 2;
 
     & pre {

@@ -1,0 +1,21 @@
+footer {
+    display: block;
+    background-image: $footer-img;
+    height: $footer-size;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+
+    box-shadow: 1px 0px 0px 1px $theme-chestnut,
+        1px -2px 0px 1px $theme-yellowish,
+        1px -3px 0px 1px $theme-chestnut;
+
+    font-size: $footer-font-size;
+    color: $theme-chestnut;
+    line-height: $footer-size;
+    font-weight: bold;
+
+    text-align: right;
+    padding: 0 $header-size / 3;
+}
