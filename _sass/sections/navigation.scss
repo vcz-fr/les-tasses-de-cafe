@@ -1,14 +1,13 @@
 nav {
-    background-color: $theme-mustard;
-
-    display: block;
-    width: $logo-width + $header-size / 2;
+    width: $menu-width;
 
     & > .menu-input {
         display: none;
 
         & + label {
             display: block;
+            background-color: $theme-mustard;
+
             font-family: headings;
             color: $theme-brown;
 

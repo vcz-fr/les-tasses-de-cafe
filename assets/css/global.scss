@@ -18,5 +18,42 @@ body {
     margin: 0 auto;
 }
 
+main {
+    display: flex;
+}
+
+#content {
+    background-color: $theme-beige;
+    width: calc(100% - #{$menu-width});
+    min-height: 500px;
+
+    color: $theme-brown;
+
+    margin: $header-size;
+    padding: $header-size / 2;
+
+    & pre {
+        white-space: pre-wrap;
+    }
+}
+
+#page-content {
+    & h1 {
+        font-family: headings;
+    }
+
+    & img.small {
+        height: 24px;
+    }
+
+    & img.medium {
+        height: 32px;
+    }
+
+    & img.big {
+        height: 32px;
+    }
+}
+
 @import "sections";
 @import "responsive";
