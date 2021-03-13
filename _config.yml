@@ -23,6 +23,10 @@ url: "https://l5sqvtohd5xk2w5q.projects.vcz.fr" # the base hostname & protocol f
 
 twitter_username: TassesDeCafe
 
+social:
+  twitter: TassesDeCafe
+  discord: xeQxeMxBxf
+
 # Build settings
 plugins:
   - jekyll-sitemap
