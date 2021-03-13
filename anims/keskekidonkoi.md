@@ -81,3 +81,10 @@ rp:
 
 Bon, il me fallait du texte et je n'ai rien de plus à dire alors... on va dire que ça suffisant pour le moment, faute de
 mieux ?
+
+{% include block/tooltip text="Hello world!" type="success" %}
+{% include block/tooltip text="Hello world!" type="info" %}
+{% include block/tooltip text="Hello world!" type="warn" %}
+{% include block/tooltip text="Hello world!" type="alert" %}
+
+Ci-dessus, voici quelques infobulles !

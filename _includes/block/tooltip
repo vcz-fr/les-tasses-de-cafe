@@ -1,0 +1,3 @@
+<div class="tooltip {{ include.type | default: 'info'}}">
+    {{ include.text }}
+</div>
