@@ -1,17 +1,30 @@
 #page-content {
     dl#game-info {
-        & > dt {
-            font-weight: bold;
-            margin: 0.5rem 0;
-        }
-        & > dd {
-            margin-left: 0;
+        column-count: 2;
+        column-gap: 2rem;
+
+        & > div {
+            break-inside: avoid;
+
+            & > dt {
+                font-weight: bold;
+                margin: 0.5rem 0;
+            }
+            & > dd {
+                margin-left: 0;
+            }
         }
     }
 
-    & > .rp {
-        & > .speech {
-            margin: 1rem 0;
+    #game-texts {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 2rem;
+
+        & > .rp {
+            & > .speech {
+                margin: 1rem 0;
+            }
         }
     }
 }

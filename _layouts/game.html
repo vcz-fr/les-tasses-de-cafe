@@ -7,58 +7,73 @@ layout: default
 
     <dl id="game-info">
         {% if page.game.description != null %}
-        <dt>Description</dt>
-        <dd>{{ page.game.description | newline_to_br }}</dd>
+        <div>
+            <dt>Description</dt>
+            <dd>{{ page.game.description | newline_to_br }}</dd>
+        </div>
         {% endif %}
 
         {% if page.game.genre != null %}
-        <dt>Genre</dt>
-        <dd>{{ page.game.genre }}</dd>
+        <div>
+            <dt>Genre</dt>
+            <dd>{{ page.game.genre }}</dd>
+        </div>
         {% endif %}
 
         {% if page.game.players != null %}
-        <dt>Joueurs</dt>
-        <dd>{{ page.game.players }}</dd>
+        <div>
+            <dt>Joueurs</dt>
+            <dd>{{ page.game.players }}</dd>
+        </div>
         {% endif %}
 
         {% if page.game.time != null %}
-        <dt>Temps de jeu</dt>
-        <dd>{{ page.game.time }}</dd>
+        <div>
+            <dt>Temps de jeu</dt>
+            <dd>{{ page.game.time }}</dd>
+        </div>
         {% endif %}
 
         {% if page.game.authors.size > 0 %}
-        <dt>Auteurs</dt>
-        <dd>{{ page.game.authors | join: ", " }}</dd>
+        <div>
+            <dt>Auteurs</dt>
+            <dd>{{ page.game.authors | join: ", " }}</dd>
+        </div>
         {% endif %}
 
         {% if page.game.support != null %}
-        <dt>Support</dt>
-        <dd>
-            {{ page.game.support.where }}
-            {% if page.game.support.link != null %} (<a href="{{ page.game.support.link }}">Lien</a>){% endif %}
-        </dd>
+        <div>
+            <dt>Support</dt>
+            <dd>
+                {{ page.game.support.where }}
+                {% if page.game.support.link != null %} (<a href="{{ page.game.support.link }}">Lien</a>){% endif %}
+            </dd>
+        </div>
         {% endif %}
     </dl>
 
-    {% if page.rp != null %}
-    <div class="rp">
-        <h2>Roleplay</h2>
-
-        {% for block in page.rp %}
-        {% case block.type %}
-        {% when "speech" %}
-        <div class="speech">
-            <b>{{ block.actor }}</b>{% if block.action != null %}<i>, {{ block.action }}</i>{% endif %}<br>
-            <div class="speech-bubble">{{ block.text }}</div>
+    <div id="game-texts">
+        <div>
+            <h2>Règles du jeu</h2>
+            {{ content }}
         </div>
-        {% when "narrator" %}
-        <p><i>{{ block.text }}</i></p>
-        {% endcase %}
-        {% endfor %}
+
+        {% if page.rp != null %}
+        <div class="rp">
+            <h2>Roleplay</h2>
+
+            {% for block in page.rp %}
+            {% case block.type %}
+            {% when "speech" %}
+            <div class="speech">
+                <b>{{ block.actor }}</b>{% if block.action != null %}<i>, {{ block.action }}</i>{% endif %}<br>
+                <div class="speech-bubble">{{ block.text }}</div>
+            </div>
+            {% when "narrator" %}
+            <p><i>{{ block.text }}</i></p>
+            {% endcase %}
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
-    {% endif %}
-
-    <h2>Règles du jeu</h2>
-
-    {{ content }}
 </div>
