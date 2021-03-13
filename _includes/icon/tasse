@@ -1,0 +1,1 @@
+<img alt="Icone {{ include.icon }}" class="tasse {{ include.dim | default: 'small' }}" src="/assets/img/tasses/{{ include.icon }}.svg">

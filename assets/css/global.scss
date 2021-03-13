@@ -38,6 +38,20 @@ main {
     }
 }
 
+.tasse {
+    &.small {
+        height: 1rem;
+    }
+
+    &.medium {
+        height: 2rem;
+    }
+
+    &.large {
+        height: 4rem;
+    }
+}
+
 #page-content {
     & h1,
     & h2,
@@ -46,18 +60,6 @@ main {
     & h5,
     & h6 {
         font-family: headings;
-    }
-
-    & img[size="small"] {
-        height: 24px;
-    }
-
-    & img[size="medium"] {
-        height: 48px;
-    }
-
-    & img[size="big"] {
-        height: 64px;
     }
 }
 
