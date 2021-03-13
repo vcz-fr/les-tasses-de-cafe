@@ -1,0 +1,17 @@
+#page-content {
+    dl#game-info {
+        & > dt {
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        & > dd {
+            margin-left: 0;
+        }
+    }
+
+    & > .rp {
+        & > .speech {
+            margin: 1rem 0;
+        }
+    }
+}
