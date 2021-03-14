@@ -20,6 +20,16 @@ layout: default
         </div>
         {% endif %}
 
+        {% if page.game.support != null %}
+        <div>
+            <dt>Support</dt>
+            <dd>
+                {{ page.game.support.where }}
+                {% if page.game.support.link != null %} (<a href="{{ page.game.support.link }}">Lien</a>){% endif %}
+            </dd>
+        </div>
+        {% endif %}
+
         {% if page.game.players != null %}
         <div>
             <dt>Joueurs</dt>
@@ -38,16 +48,6 @@ layout: default
         <div>
             <dt>Auteurs</dt>
             <dd>{{ page.game.authors | join: ", " }}</dd>
-        </div>
-        {% endif %}
-
-        {% if page.game.support != null %}
-        <div>
-            <dt>Support</dt>
-            <dd>
-                {{ page.game.support.where }}
-                {% if page.game.support.link != null %} (<a href="{{ page.game.support.link }}">Lien</a>){% endif %}
-            </dd>
         </div>
         {% endif %}
     </dl>
