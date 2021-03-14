@@ -1,0 +1,3 @@
+---
+---
+{{ site.pages | where: "layout","game" | jsonify }}

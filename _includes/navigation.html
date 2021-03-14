@@ -1,18 +1,10 @@
 <nav>
-    <input type="radio" id="menu1" name="menu" class="menu-input">
-    <label for="menu1">Anims</label>
+    <input type="radio" checked id="menu1" name="menu" class="menu-input">
+    <label for="menu1">Animations</label>
     <div class="menu-section">
-        <a href="/anims/keskekidonkoi">Keskekidonkoi</a>
-        <a href="/anims/montpartasse">Montpartasse</a>
-    </div>
-
-    <input type="radio" id="menu2" name="menu" class="menu-input">
-    <label for="menu2">Vocal</label>
-    <div class="menu-section">
-    </div>
-
-    <input type="radio" id="menu3" name="menu" class="menu-input">
-    <label for="menu3">Meta</label>
-    <div class="menu-section">
+        {% assign games = site.pages | where:"layout","game" %}
+        {% for game in games %}
+            <a href="{{ game.url }}" {% if page.layout == "game" and page.title == game.title %}class="active"{% endif %} >{{ game.title }}</a>
+        {% endfor %}
     </div>
 </nav>
