@@ -108,8 +108,8 @@ Il y a **cinq couleurs** de tasses : {% include icon/tasse icon="TasseInconnu" %
 
 📅 Tous les **samedis à 21 heures**, on remet le classement à zéro. Le premier tiers du classement gagne deux {% include icon/tasse icon="TasseBlanche" %}, les suivants une. Pour lire le classement, écrivez @Br4nd-0n rank.
 
-### Tasses spéciales
 
+{% capture accordion_content %}
 {% include icon/tasse icon="RainbowTasse" %} **Tasse-en-ciel >** Cette tasse remplace n'importe quelle couleur, en fonction des besoins.  
 {% include icon/tasse icon="Tassbombe" %} **Tassbombe >** Les deux tasses se trouvant en dessous (quand vous la posez ou l'activez) explosent !  
 {% include icon/tasse icon="TassePiquante" %} **Tasse piquante >** La tasse située en-dessous perd sa couleur, ça pique.  
@@ -125,3 +125,5 @@ Il y a **cinq couleurs** de tasses : {% include icon/tasse icon="TasseInconnu" %
 {% include icon/tasse icon="TasseInconnu" %} **Aléatasse >** Mélange l'ordre des tasses de la pile, on sait jamais...  
 {% include icon/tasse icon="TasseInconnu" %} **Tassus >**  Assassine la tasse placée dessous lorsqu'une tasse de la même couleur est posée.  
 {% include icon/tasse icon="TasseInconnu" %} **Tassepartout >** S'il y a 3 tasses ou plus de la même couleur que la tasse d'en-dessous, la pile s'effondre.
+{% endcapture %}
+{% include block/accordion title="Tasses spéciales" content=accordion_content %}

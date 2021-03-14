@@ -1,0 +1,6 @@
+<!-- {% increment accordion_id %} -->
+<div class="accordion">
+    <input type="checkbox" id="accordion-{{ accordion_id }}">
+    <label for="accordion-{{ accordion_id }}">{{ include.title }}</label>
+    <div>{{ include.content | markdownify }}</div>
+</div>
