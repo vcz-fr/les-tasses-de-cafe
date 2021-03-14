@@ -1,10 +1,12 @@
 ---
 layout: game
 
-title: "Emoglyphes"
+title: Emoglyphes
 
 game:
-    genre: "culture"
+    genres:
+        - Culture
+
     support:
         where: Discord
 

@@ -13,10 +13,10 @@ layout: default
         </div>
         {% endif %}
 
-        {% if page.game.genre != null %}
+        {% if page.game.genres.size > 0 %}
         <div>
-            <dt>Genre</dt>
-            <dd>{{ page.game.genre }}</dd>
+            <dt>Genre{% if page.game.genres.size > 1 %}s{% endif %}</dt>
+            <dd>{{ page.game.genres | join: ", " }}</dd>
         </div>
         {% endif %}
 
@@ -46,7 +46,7 @@ layout: default
 
         {% if page.game.authors.size > 0 %}
         <div>
-            <dt>Auteurs</dt>
+            <dt>Auteur{% if page.game.authors.size > 1 %}s{% endif %}</dt>
             <dd>{{ page.game.authors | join: ", " }}</dd>
         </div>
         {% endif %}

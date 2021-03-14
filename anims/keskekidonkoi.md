@@ -1,10 +1,15 @@
 ---
 layout: game
 
-title: "Keskekidonkoi"
+title: Keskekidonkoi
 
 game:
-    genre: "Plateau"
+    genres:
+        - Plateau
+        - Plateformes
+        - Action
+        - Suspense
+
     support:
         where: En ligne
         link: "https://tasses.cafe"

@@ -1,10 +1,12 @@
 ---
 layout: game
 
-title: "Montpartasse"
+title: Montpartasse
 
 game:
-    genre: "Collection"
+    genres:
+        - Collection
+
     support:
         where: Discord
 
