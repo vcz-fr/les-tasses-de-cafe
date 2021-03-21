@@ -399,7 +399,13 @@ const taglines = [
     "Et on applaudit dès demain !",
     "On a pas attendu d'être vieux pour se tasser.",
     "Attention à la marche, elle est moins rapide que la course.",
-    "C'est beau cette remise en question de soi-même..."
+    "C'est beau cette remise en question de soi-même...",
+    "Attention à Nilphesai, il croît qu'on est des quilles",
+    "À la base c'était une fondue... Quand c'est devenu une décharge industrielle ?",
+    "Il tape sur des bambous et ça leur fait mal.",
+    "Ah oui, on est aussi sur Reddit",
+    "slomoufle.txt",
+    "Et tasseur, elle bat le bar ?"
 ];
 
 const generateRandomInteger = (min = 0, max = 1) => {
