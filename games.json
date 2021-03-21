@@ -5,6 +5,7 @@
     {%- for page in pages -%}
     {
         "title": {{ page.title | jsonify }},
+        "url": {{ page.url | jsonify }},
         "genres": {{ page.game.genres | jsonify }},
         "platform": {{ page.game.support | jsonify }},
         "players": {{ page.game.players | jsonify }},

@@ -1,0 +1,96 @@
+---
+layout: page
+
+title: "Chercher une animation"
+---
+
+<p>
+    <i>Attention :</i> Cette page a besoin de JavaScript pour fonctionner.
+</p>
+
+<p>
+    Je cherche...
+</p>
+
+{%- assign pages = site.pages | where: "layout","game" -%}
+<form id="search-form">
+    <p>
+        Des jeux de...
+    </p>
+    {%- assign all = pages | map: "game" | map: "genres" -%}
+    {%- for e in all -%}
+    {%- assign options = options | concat: e -%}
+    {%- endfor -%}
+    {%- assign options = options | uniq | sort -%}
+    <select name="genre" multiple size={{ options | size | plus: 1 }}>
+        <option value="-" selected>-- Peu importe --</option>
+        {%- for option in options -%}
+        <option value="{{ option }}">{{ option }}</option>
+        {%- endfor -%}
+    </select>
+
+    <p>
+        Créés par...
+    </p>
+    {%- assign options = "" | split: "" -%}
+    {%- assign all = pages | map: "game" | map: "authors" -%}
+    {%- for e in all -%}
+    {%- assign options = options | concat: e -%}
+    {%- endfor -%}
+    {%- assign options = options | uniq | sort -%}
+    <select name="author" multiple size={{ options | size | plus: 1 }}>
+        <option value="-" selected>-- Peu importe --</option>
+        {%- for option in options -%}
+        <option value="{{ option }}">{{ option }}</option>
+        {%- endfor -%}
+    </select>
+
+    <p>
+        Qui durent...
+    </p>
+    {%- assign options = "" | split: "" -%}
+    {%- assign all = pages | map: "game" | map: "duration" -%}
+    {%- assign options = all | uniq | sort -%}
+    <select name="duration" multiple size={{ options | size | plus: 1 }}>
+        <option value="-" selected>-- Peu importe --</option>
+        {%- for option in options -%}
+        <option value="{{ option }}">{{ option }}</option>
+        {%- endfor -%}
+    </select>
+
+    <p>
+        Sur la plateforme...
+    </p>
+    {%- assign options = "" | split: "" -%}
+    {%- assign all = pages | map: "game" | map: "support" -%}
+    {%- for e in all -%}
+    {%- assign options = options | push: e.where -%}
+    {%- endfor -%}
+    {%- assign options = options | uniq | sort -%}
+    <select name="platform" multiple size={{ options | size | plus: 1 }}>
+        <option value="-" selected>-- Peu importe --</option>
+        {%- for option in options -%}
+        <option value="{{ option }}">{{ option }}</option>
+        {%- endfor -%}
+    </select>
+
+    <br>
+
+    <textarea id="search-text" name="query"
+        placeholder="Dont le titre, la description ou les règles contiennent..."></textarea>
+
+    <br>
+
+    <input type="button" id="form-submit" value="Lancer la recherche">
+
+    <br>
+
+    <input type="button" id="form-clipboard" value="Copier l'URL de recherche">
+</form>
+
+<hr>
+
+<div id="search-results">Les résultats de recherche apparaîtront ici</div>
+
+<script src="/assets/js/fuse.js" async defer></script>
+<script src="/assets/js/search.js" async defer></script>

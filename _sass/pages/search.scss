@@ -1,0 +1,18 @@
+#search-form {
+
+}
+
+#search-results {
+    .search-result-item {
+        padding: 1rem;
+
+        a {
+            font-family: headings;
+            color: inherit;
+        }
+
+        &:nth-child(even) {
+            background-color: $theme-white;
+        }
+    }
+}
