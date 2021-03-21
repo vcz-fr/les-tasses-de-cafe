@@ -1,3 +1,17 @@
 ---
 ---
-{{ site.pages | where: "layout","game" | jsonify }}
+[
+    {%- assign pages = site.pages | where: "layout","game" -%}
+    {%- for page in pages -%}
+    {
+        "title": {{ page.title | jsonify }},
+        "genres": {{ page.game.genres | jsonify }},
+        "platform": {{ page.game.support | jsonify }},
+        "players": {{ page.game.players | jsonify }},
+        "time": {{ page.game.time | jsonify }},
+        "authors": {{ page.game.authors | jsonify }},
+        "description": {{ page.game.description | strip_newlines | jsonify }},
+        "rules": {{ page.content | strip_html | normalize_whitespace | jsonify }}
+    }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+]
