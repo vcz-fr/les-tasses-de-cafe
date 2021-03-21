@@ -11,7 +11,7 @@ game:
         where: Discord
 
     players: "3 et plus"
-    time: "Une semaine"
+    duration: "Une semaine"
     authors:
         - Chris Antem
         - Holly

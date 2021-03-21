@@ -8,7 +8,7 @@
         "genres": {{ page.game.genres | jsonify }},
         "platform": {{ page.game.support | jsonify }},
         "players": {{ page.game.players | jsonify }},
-        "time": {{ page.game.time | jsonify }},
+        "duration": {{ page.game.duration | jsonify }},
         "authors": {{ page.game.authors | jsonify }},
         "description": {{ page.game.description | strip_newlines | jsonify }},
         "rules": {{ page.content | strip_html | normalize_whitespace | jsonify }}

@@ -13,7 +13,7 @@ game:
         link: "https://tasses.cafe"
 
     players: "2 et plus"
-    time: "10 jours"
+    duration: "Dix jours"
     authors:
         - Chris Antem
 

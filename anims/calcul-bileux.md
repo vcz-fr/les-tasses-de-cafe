@@ -12,7 +12,7 @@ game:
         where: Discord
 
     players: "3 et plus"
-    time: "1 semaine"
+    duration: "Une semaine"
     authors:
         - Chris Antem
 

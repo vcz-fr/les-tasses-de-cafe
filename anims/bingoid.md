@@ -12,7 +12,7 @@ game:
         where: Discord
 
     players: "2 et plus"
-    time: "Cinq manches"
+    duration: "Cinq manches"
     authors:
         - Chris Antem
 
