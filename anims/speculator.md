@@ -15,7 +15,7 @@ game:
     players: "2 et plus"
     time: "10 jours"
     authors:
-        - ChrisAntem
+        - Chris Antem
 
     description: |
         Vous aimez les vieux jeux d'arcades ?

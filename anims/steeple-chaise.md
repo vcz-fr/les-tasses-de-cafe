@@ -13,7 +13,7 @@ game:
     players: "2 et plus"
     time: "Une semaine"
     authors:
-        - ChrisAntem
+        - Chris Antem
         - Le Codex
 
     description: |

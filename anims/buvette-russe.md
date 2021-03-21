@@ -13,7 +13,7 @@ game:
     players: "3 et plus"
     time: "Une semaine"
     authors:
-        - ChrisAntem
+        - Chris Antem
         - Holly
 
     description: |

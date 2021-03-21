@@ -13,7 +13,7 @@ game:
     players: "2 et plus"
     time: "Une semaine"
     authors:
-        - ChrisAntem
+        - Chris Antem
 
     description: |
         📖 Votre but est de marquer un maximum de points en retrouvant ce qui était dit par votre confrère.

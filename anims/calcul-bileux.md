@@ -14,7 +14,7 @@ game:
     players: "3 et plus"
     time: "1 semaine"
     authors:
-        - ChrisAntem
+        - Chris Antem
 
     description: |
         Vous avez la bosse des math ?

@@ -18,7 +18,7 @@ game:
     time: "45 minutes mini"
     authors:
         - AirDur
-        - ChrisAntem
+        - Chris Antem
         - Holly
         - Nilphesai
 
