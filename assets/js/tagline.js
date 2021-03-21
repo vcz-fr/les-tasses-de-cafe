@@ -395,7 +395,11 @@ const taglines = [
     "Si Chris ne dit pas de connerie, c'est qu'il en cherche une.",
     "C'est avec nous que vous allez le préférer.",
     "On peut animer mille fois une animation... non, euh on peut botter une fois mille... non.",
-    "C'est l'histoire d'une supernova, d'un yoshi et d'AirDur, ça commence comme une mauvaise blague et ça finit excatement comme une mauvaise blague."
+    "C'est l'histoire d'une supernova, d'un Yoshi, d'un Pikachu et d'AirDur, ça commence comme une mauvaise blague et ça finit excatement comme une mauvaise blague.",
+    "Et on applaudit dès demain !",
+    "On a pas attendu d'être vieux pour se tasser.",
+    "Attention à la marche, elle est moins rapide que la course.",
+    "C'est beau cette remise en question de soi-même..."
 ];
 
 const generateRandomInteger = (min = 0, max = 1) => {
