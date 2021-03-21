@@ -114,10 +114,10 @@ rp:
 📖 Le but du jeu est de faire un maximum de 🔄 **tours complets** du bar (ou *plateau* selon si vous êtes RP ou non) en une semaine. Pour cela, utilisez la commande `;steeple` ou pinguez @Serveur :
 - La première fois que vous l'utilisez, vous êtes placée à la toute fin de l'**ordre** de passage.
 - Ensuite, une seule fois entre chaque lancer, vous pouvez utiliser la commande pour revenir au *tout début* de cet ordre, en position 1, donc. Pour savoir qui a encore le droit de changer sa position, regardez la section **Ordre** du message du bot. Si votre pseudo est *souligné*, vous pouvez.
-- Attention, si vous l'utilisez alors que vous êtes déjà première, indiquez aussi le numéro de la position que vous souhaitez rejoindre (ex : `;steeple 3`)
+- Attention, si vous l'utilisez alors que vous êtes déjà première, indiquez aussi le numéro de la position que vous souhaitez rejoindre (ex : `;steeple 3`).  
 💬 *Autres commandes : `;steeple show` pour redescendre le message du bot, `;steeple rank` pour afficher le classement, `;steeple logs` pour avoir par MP des derniers lancers.*
 
-🎲 À l'**heure pile**, Le bot lancera un dé d'autant de faces que de personnes dans l'ordre de passage. Le résultat indiquera le nombre de gens qui auront le droit d'avancer, mais toujours en commençant par la première position. Ils avanceront d'autant de chaises (ou *cases*) que le numéro de leur position.
+🎲 À l'**heure pile**, Le bot lancera un dé d'autant de faces que de personnes dans l'ordre de passage. Le résultat indiquera le nombre de gens qui auront le droit d'avancer, mais toujours en commençant par la première position. Ils avanceront d'autant de chaises (ou *cases*) que le numéro de leur position.  
 *Être en position 1 dans l'ordre vous assure donc d'avancer d'une chaise. Être en position 10 peut vous faire avancer de 10 chaises, mais seulement si le dé affiche au moins 10...*
 
 🗺️ La section **Plateau** du message du bot vous montre le chemin à pratiquer pour faire le tour du bar (la première case est tout en haut à gauche puis faut lire, c'est pas compliqué). Au dessus de chaque chaise se trouvent les *pions* associés à chacun d'entre vous. Vous pouvez en changer à tout moment en **mettant une réaction** au message du bot. Seuls les émojis Discord et de ce serveur sont autorisés.
