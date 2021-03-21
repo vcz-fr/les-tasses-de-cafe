@@ -1,5 +1,33 @@
 #search-form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2rem;
 
+    select {
+        width: 100%;
+
+        option {
+            padding: 0.5rem;
+            font-family: text;
+
+            &:checked {
+                font-weight: bold;
+            }
+        }
+    }
+
+    & ~ .row {
+        margin: 1rem 0;
+
+        textarea {
+            resize: vertical;
+            min-height: 5rem;
+
+            padding: .5rem;
+            width: 100%;
+            font-family: text;
+        }
+    }
 }
 
 #search-results {

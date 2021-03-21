@@ -35,23 +35,6 @@ const checkCheckboxGroup = (name) => {
     }
 };
 
-const retrieveFormData = () => {
-    return new FormData(document.getElementById("search-form"));
-}
-
-const generateSearchLink = () => {
-    return new URLSearchParams(retrieveFormData()).toString();
-}
-
-fetch("/games.json").then(r => r.json()).then(r => {
-    games = r;
-
-    ["genre", "author", "duration", "platform"].forEach(checkCheckboxGroup);
-    if (searchParams.has("query")) {
-        document.getElementById("search-text").value = searchParams.get("query");
-    }
-});
-
 const intersect = (A, B) => {
     for (const elem of A) {
         if (B.includes(elem)) {
@@ -62,7 +45,7 @@ const intersect = (A, B) => {
 }
 
 const doSearch = () => {
-    const formData = retrieveFormData();
+    const formData = new FormData(document.getElementById("search-form"));
     const filteredGames = games
         .filter(g => formData.get("genre") === "-" || intersect(g.genres, formData.getAll("genre")))
         .filter(g => formData.get("author") === "-" || intersect(g.authors, formData.getAll("author")))
@@ -108,9 +91,15 @@ const doSearch = () => {
     }
 }
 
-const doUpdateClipboard = () => {
-    navigator.clipboard.writeText(`${location.origin}${location.pathname}?${generateSearchLink()}`).then(void 0);
-}
+fetch("/games.json").then(r => r.json()).then(r => {
+    games = r;
+
+    ["genre", "author", "duration", "platform"].forEach(checkCheckboxGroup);
+    if (searchParams.has("query")) {
+        document.getElementById("search-text").value = searchParams.get("query");
+    }
+
+    doSearch();
+});
 
 document.getElementById("form-submit").addEventListener('click', doSearch);
-document.getElementById("form-clipboard").addEventListener('click', doUpdateClipboard);
