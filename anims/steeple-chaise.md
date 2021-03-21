@@ -115,6 +115,7 @@ rp:
 - La première fois que vous l'utilisez, vous êtes placée à la toute fin de l'**ordre** de passage.
 - Ensuite, une seule fois entre chaque lancer, vous pouvez utiliser la commande pour revenir au *tout début* de cet ordre, en position 1, donc. Pour savoir qui a encore le droit de changer sa position, regardez la section **Ordre** du message du bot. Si votre pseudo est *souligné*, vous pouvez.
 - Attention, si vous l'utilisez alors que vous êtes déjà première, indiquez aussi le numéro de la position que vous souhaitez rejoindre (ex : `;steeple 3`).  
+
 💬 *Autres commandes : `;steeple show` pour redescendre le message du bot, `;steeple rank` pour afficher le classement, `;steeple logs` pour avoir par MP des derniers lancers.*
 
 🎲 À l'**heure pile**, Le bot lancera un dé d'autant de faces que de personnes dans l'ordre de passage. Le résultat indiquera le nombre de gens qui auront le droit d'avancer, mais toujours en commençant par la première position. Ils avanceront d'autant de chaises (ou *cases*) que le numéro de leur position.  
