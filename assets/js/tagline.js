@@ -405,7 +405,12 @@ const taglines = [
     "Il tape sur des bambous et ça leur fait mal.",
     "Ah oui, on est aussi sur Reddit",
     "slomoufle.txt",
-    "Et tasseur, elle bat le bar ?"
+    "Et tasseur, elle bat le bar ?",
+    "Contre Uno. Allez, pioche.",
+    "Pistasse, ta grand-mère a une moustasse.",
+    "Le bar qui ne perd pas d'inspiration.",
+    "VZAdnap, on pense à toi. Reviens.",
+    "Shake ton Booti"
 ];
 
 const generateRandomInteger = (min = 0, max = 1) => {
