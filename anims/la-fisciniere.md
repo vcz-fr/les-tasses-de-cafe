@@ -109,12 +109,14 @@ Vous pouvez aussi, pour un {% include icon/tasse icon="TasseInconnu" %}, réinit
 Lorsque quelqu'un atteint **30 points**, il aura de quoi faire chanter Chris pour qu'il paye enfin ses impôts et gagnera la partie ! *Attention, il chante mal !*
 
 {% capture accordion_content %}
-```BOUTEILLE D'EAU FILTRÉE (4) :  1  2  3  4  
+```
+BOUTEILLE D'EAU FILTRÉE (4) :  1  2  3  4  
 VIN RÔSE (10) :  1  2  3  4  5  6  7  8  9  10  
 POTION MENTALIQUE (5) :  1  2  3  4  5  
 OUISKISKI (4) :  1  2  3  4  
 VIN TANDAGE (8) :  1  2  3  4  5  6  7  8  
-DIABOLO-FRAISE (6) :  1  2  3  4  5  6```
+DIABOLO-FRAISE (6) :  1  2  3  4  5  6
+```
 {% endcapture %}
 {% include block/accordion title="Message à recopier" content=accordion_content %}
 
