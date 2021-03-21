@@ -72,7 +72,7 @@ rp:
 
     - type: speech
       actor: Chris
-      action: "s'éclipsant"
+      action: "trop surpris"
       text: "Ooooooohko, en pleine forme à ce que je vois ! Ça va bien, la famille, les amis, la Suisse, tout ça ? Tu sais que les portes ça pousse pas sur les arbres ? Je t'enverrai un RIB. BON, faut que j'y aille, j'ai un ami qui m'invite à faire un Monopoly chez lui, salut salut..."
 
     - type: narrator
