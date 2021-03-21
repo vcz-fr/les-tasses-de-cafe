@@ -149,4 +149,4 @@ Gain : 9 moins le nombre de pépites restantes dans cette bouteille // Perte : 9
 Gain : 6 points pour une pépite de valeur paire, 4 sinon // Perte : vous ne pourrez pas faire d'action gratuite le lendemain.  
 *Un Diabolo-Fraise, à base de Vodka pétillante et de liqueur de Fraise. Tonique !*
 {% endcapture %}
-{% include block/accordion title="Tasses spéciales" content=accordion_content %}
+{% include block/accordion title="Carte des boissons" content=accordion_content %}
