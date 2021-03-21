@@ -110,9 +110,10 @@ Cinq cartons de **16 numéros parmi 20** vous seront proposés les uns après le
 - Si le numéro n'est pas sur le carton, le joueur gagne *du sel*.
 
 🎊 Lorsqu'un bingo a lieu, ceux qui y ont coché au moins un numéro gagnent des points en plus : 
-- Ligne horizontale ou verticale : 5 points
-- Diagonale : 10 points
-- Les quatre coins : 15 points  
+- Ligne horizontale ou verticale : **5** points
+- Grande diagonale : **10** points
+- Les quatre coins : **15** points
+
 Si plusieurs bingos arrivent en même temps, ils sont tous comptés (vous pouvez donc marquer des points sur plusieurs bingos), puis on joue une nouvelle carte.
 
 🥅 Au bout des cinq cartons, la personne avec le plus de points gagne la partie !
