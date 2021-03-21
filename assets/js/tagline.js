@@ -412,7 +412,10 @@ const taglines = [
     "VZAdnap, on pense à toi. Reviens.",
     "Shake ton Booti",
     "Allez, une anim et Holly",
-    "On passe le coucou à Catherine Lemercier"
+    "On passe le coucou à Catherine Lemercier",
+    "Alphard est munie d'un bec verseur",
+    "https://danstonchat.com/15508.html",
+    "https://danstonchat.com/19936.html"
 ];
 
 const generateRandomInteger = (min = 0, max = 1) => {
