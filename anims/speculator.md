@@ -1,12 +1,12 @@
 ---
 layout: game
 
-title: spéculator
+title: Spéculator
 
 game:
     genres:
         - Arcade
-        - compétition
+        - Compétition
 
     support:
         where: En ligne

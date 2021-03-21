@@ -64,7 +64,7 @@ rp:
 
     - type: speech
       actor: Nilphesai
-      action: "tenant une pancarte sur laquelle il est écrit "Mais comment t'as fait pour courir aussi vite ?""
+      action: "tenant une pancarte sur laquelle il est écrit \"Mais comment t'as fait pour courir aussi vite ?\""
       text: "KOF KOF RAAAAGH KOF KOF BEUUUUUUH KOF KOF KOOOOF"
 
     - type: speech

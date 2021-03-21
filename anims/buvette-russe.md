@@ -1,11 +1,11 @@
 ---
 layout: game
 
-title: buvette-russe
+title: Buvette Russe
 
 game:
     genres:
-        - collection
+        - Collection
 
     support:
         where: Discord
@@ -32,29 +32,29 @@ rp:
       action: "ironique"
       text: "Ah, c'est dommage qu'on soit gérants de bar..."
 
-      type: speech
+    - type: speech
       actor: Chris
       text: "Mais j'ai soif."
 
-      type: speech
+    - type: speech
       actor: Braxer
       text: "Bah va chercher à boire"
 
-      type: speech
+    - type: speech
       actor: Chris
       text: "J'ai soiiiiiiiiiif..."
 
-      type: narrator
+    - type: narrator
       text: "Braxer tente de traïner Chris vers la cuisine, mais il n'y arrive pas, trop petit"
 
-      type: speech
+    - type: speech
       actor: Braxer
       text: "Laisse tomber, je vais te chercher une boisson."
 
-      type: narrator
+    - type: narrator
       text: "Braxer part dans la cuisine en ricanant"
 
-      type: speech
+    - type: speech
       actor: Braxer
       text: "Alors, alors, qu'est-ce qu'on a là... il va avoir, le dernier dinosaure, je vais lui faire un cocktail maison, il va s'en souvenir !"
 
@@ -62,13 +62,13 @@ rp:
 
 Avec les cocktails, on sait jamais sur quoi on va tomber, mais on sait qu'on va déguster ! On va voir qui fera confiance à ses camarades (ou qui aura l'estomac le plus solide, c'est selon) !
 📒 Les joueurs vont être installés autour d'une table, vous aurez donc deux voisins : un à gauche et un à droite. Et entre deux joueurs, il y a toujours une tasse vide.
-A chaque tour, vous allez devoir remplir les deux tasses à côté de vous : vous lancerez deux dés à 6 faces dans ce canal et choisirez quelle boisson mettre dans la tasse à votre gauche, et laquelle mettre à votre droite en envoyant votre choix par MP à l'animateur.
+A chaque tour, vous allez devoir remplir les deux tasses à côté de vous : vous lancerez deux dés à 6 faces dans ce canal et choisirez quelle boisson mettre dans la tasse à votre gauche, et laquelle mettre à votre droite en envoyant votre choix par MP à l'animateur.  
 ⚠️ Attention, vous ne pouvez pas parler en privé avec vos voisins !
 
 Il y aura 4 boissons par tasse à la première manche, 6 boissons à la seconde et 8 boissons à la troisième manche. Quand elles sont remplies, on les vide il est alors temps de voir ce que vous allez boire ! Les deux joueurs à côté d'une tasse gagnent des points en fonction de son contenu.
 D'ailleurs, voici les explications des boissons disponibles :
 
-1️⃣  Thé javel : élimine 100 % des bactéries. Et aussi un peu de papilles en fait.
+1️⃣ Thé javel : élimine 100 % des bactéries. Et aussi un peu de papilles en fait.
 Chaque thé javel vous fait perdre un point.
 
 2️⃣ Jus de pomme : déjà cinq fruits et légumes par jour c'est beaucoup, plus ça serait du suicide.
