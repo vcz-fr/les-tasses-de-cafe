@@ -88,7 +88,7 @@ rp:
       
     - type: speech
       actor: AirDur
-      text: "Et apparemment le trésorier ordurieur s'est barré en nous laissant une barre. Champagne ?"
+      text: "Et apparemment le trésorier ordurier s'est barré en nous laissant une barre. Champagne ?"
 ---
 
 Afin de récupérer les pépites que Chris a planqué, vous possédez au début du jeu 2 {% include icon/tasse icon="TasseInconnu" %} chacun, que vous pouvez utiliser pour aller les piocher dans les bouteilles du bar.  
@@ -106,8 +106,7 @@ Une bouteille est aussi réinitialisée quand toutes les pépites ont été tir�
 
 Vous pouvez aussi, pour un {% include icon/tasse icon="TasseInconnu" %}, réinitialiser le contenu de la bouteille de votre choix. Vous devrez alors immédiatement piocher dedans en utilisant un second {% include icon/tasse icon="TasseInconnu" %}.
 
-Lorsque quelqu'un atteint **30 points**, il aura de quoi faire chanter Chris pour qu'il paye enfin ses impôts et gagnera la partie !
-*Attention, il chante mal !*
+Lorsque quelqu'un atteint **30 points**, il aura de quoi faire chanter Chris pour qu'il paye enfin ses impôts et gagnera la partie ! *Attention, il chante mal !*
 
 {% capture accordion_content %}
 `BOUTEILLE D'EAU FILTRÉE (4) :  1  2  3  4  
@@ -121,27 +120,27 @@ DIABOLO-FRAISE (6) :  1  2  3  4  5  6`
 
 {% capture accordion_content %}
 {% include icon/tasse icon="TasseInconnu" %} **Bouteille d'eau filtrée** / Coût : gratuit / quatre pépites  
-Gain : 2 {% include icon/tasse icon="TasseInconnu" %} // Pas de perte  
+**Gain :** 2 {% include icon/tasse icon="TasseInconnu" %} // Pas de perte  
 *Parce qu'on a tous des besoin naturels.*  
 
 {% include icon/tasse icon="TasseInconnu" %} **Vin rôse** / Coût : un {% include icon/tasse icon="TasseInconnu" %} / dix pépites  
-Gain : 1 point // Perte : 1 point  
+**Gain :** 1 point // **Perte :** 1 point  
 *Sa couleur rappelle les champs de lavande ou les cheveux d'AirDur, son goût les champs de lavande avec un pointe de banane et une note de cannelle. Du raisin ?*  
 
 {% include icon/tasse icon="TasseInconnu" %} **Potion mentallique**  / Coût : deux {% include icon/tasse icon="TasseInconnu" %} / cinq pépites  
-Gain : la valeur de la pépite tirée // Perte : la valeur de la pépite tirée  
+**Gain :** la valeur de la pépite tirée // **Perte :** la valeur de la pépite tirée  
 *Quiconque en boit agit, parle et vit tout ce qu'il pense en le montrant clairement à tout le monde, comme s'ils pouvaient lire en lui. Comme sur les réseaux sociaux.*  
 
 {% include icon/tasse icon="TasseInconnu" %} **Ouiskiski** / Coût : deux {% include icon/tasse icon="TasseInconnu" %} / quatre pépites  
-Gain : Le prochain gain de points est doublé // Perte : La prochaine perte de points est doublée  
+**Gain :** Le prochain gain de points est doublé // **Perte :** La prochaine perte de points est doublée  
 *Ce breuvage, renforcé en dopamine, met en joie et fait sourire quiconque en porte à sa bouche.*  
 
 {% include icon/tasse icon="TasseInconnu" %} **Vin tandage** Coût : trois {% include icon/tasse icon="TasseInconnu" %} / huit pépites  
-Gain : 9 moins le nombre de pépites restantes dans cette bouteille // Perte : 9 moins le nombre de pépites restantes dans cette bouteille  
+**Gain :** 9 moins le nombre de pépites restantes dans cette bouteille // **Perte :** 9 moins le nombre de pépites restantes dans cette bouteille  
 *Boire ce vin à l'extrait de chêne liège, c'est comme tirer à pile ou face. Soit il vous en bouche un coin, soit vous bouchez les toilettes.*  
 
 {% include icon/tasse icon="TasseInconnu" %} **Diabolo-fraise** / Coût : quatre {% include icon/tasse icon="TasseInconnu" %} / six pépites  
-Gain : 6 points pour une pépite de valeur paire, 4 sinon // Perte : vous ne pourrez pas faire d'action gratuite le lendemain.  
+**Gain :** 6 points pour une pépite de valeur paire, 4 sinon // **Perte :** vous ne pourrez pas faire d'action gratuite le lendemain.  
 *Un Diabolo-Fraise, à base de Vodka pétillante et de liqueur de Fraise. Tonique !*
 {% endcapture %}
 {% include block/accordion title="Carte des boissons" content=accordion_content %}
