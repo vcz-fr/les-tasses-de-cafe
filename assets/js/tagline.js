@@ -410,7 +410,9 @@ const taglines = [
     "Pistasse, ta grand-mère a une moustasse.",
     "Le bar qui ne perd pas d'inspiration.",
     "VZAdnap, on pense à toi. Reviens.",
-    "Shake ton Booti"
+    "Shake ton Booti",
+    "Allez, une anim et Holly",
+    "On passe le coucou à Catherine Lemercier"
 ];
 
 const generateRandomInteger = (min = 0, max = 1) => {
