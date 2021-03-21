@@ -1,12 +1,12 @@
 ---
 layout: game
 
-title: Calcul-bileux
+title: Calcul bileux
 
 game:
     genres:
-        - réflexion
-        - rapidité
+        - Réflexion
+        - Rapidité
 
     support:
         where: Discord
@@ -18,7 +18,7 @@ game:
 
     description: |
         Vous avez la bosse des math ?
-        alors venez aider notre cher pôtron en faisant les calculs à sa place !
+        Alors venez aider notre cher pôtron en faisant les calculs à sa place !
 
 rp:
 
@@ -78,13 +78,13 @@ rp:
 
 ---
 
-📖 Chris n'a pas pas la bosse des maths, il a un gros nez. Il va donc avoir besoin de vous pour tenir ses comptes. À chaque tour, quelqu'un prend le rôle du **Boulier**, qui fait tirer à Barman **six dés à 10 faces**. Pour cela, écrivez *coup de chiffres* dans le tableau sous ces règles. Le but est d'être le premier ou la première à trouver un calcul utilisant les six nombres, des opérations élémentaires (*addition, soustraction, multiplication ou division*) et des parenthèses (*optionnel*) ayant pour résultat un nombre se trouvant sur le **tableau** (un exemple se trouve sous les règles). N'oubliez pas d'écrire le résultat avec le calcul pour que l'on puisse vérifier.
+📖 Chris n'a pas pas la bosse des maths, il a un gros nez. Il va donc avoir besoin de vous pour tenir ses comptes. À chaque tour, quelqu'un prend le rôle du **Boulier**, qui fait tirer à Barman **six dés à 10 faces**. Pour cela, écrivez *coup de chiffres* dans le tableau sous ces règles. Le but est d'être le premier ou la première à trouver un calcul utilisant les six nombres, des opérations élémentaires (*addition, soustraction, multiplication ou division*) et des parenthèses (*optionnel*) ayant pour résultat un nombre se trouvant sur le **tableau** (un exemple se trouve sous les règles). N'oubliez pas d'écrire le résultat avec le calcul pour que l'on puisse vérifier.  
 ⚠️ *Le Boulier ne peut pas participer au tour où il lance les dés, mais il arbitre en cas de litige. Avec des nombres c'est compliqué mais je sais que vous en êtes capables.*
 
-🧮 Le gagnant devient le nouveau Boulier et **efface du tableau** le résultat qu'il a trouvé, qui ne pourra donc plus être utilisé par la suite. Il le place alors à côté de son pseudo, c'est ce qui lui permettra de gagner des {% include icon/tasse icon="TasseBlanche" dim="medium" %}. Attention, vous ne pouvez pas marquer plusieurs fois un même résultat à côté de votre pseudo ! Si le tableau est **vide**, le Boulier en démarre un nouveau avec les résultats indiqués sous les règles.
+🧮 Le gagnant devient le nouveau Boulier et **efface du tableau** le résultat qu'il a trouvé, qui ne pourra donc plus être utilisé par la suite. Il le place alors à côté de son pseudo, c'est ce qui lui permettra de gagner des {% include icon/tasse icon="TasseBlanche" dim="small" %}. Attention, vous ne pouvez pas marquer plusieurs fois un même résultat à côté de votre pseudo ! Si le tableau est **vide**, le Boulier en démarre un nouveau avec les résultats indiqués sous les règles.  
 ⚠️ *Prenez le temps de bien vérifier vos calculs avant de poster le tableau des scores, merci.*
 
 ⏩ Si au bout de **quatre heures** après les lancers, personne n'a trouvé de calcul satisfaisant, n'importe qui peut prendre la place de Boulier en relançant six nouveaux dés et en **réinitialisant le tableau**, comme s'il avait été vidé.
 
-📅 Tous les **samedis à 21 heures**, on remet à zéro le classement : toutes les personnes qui ont trouvé au moins **dix résultats parmi ceux du tableau** repartent avec deux {% include icon/tasse icon="TasseBlanche" dim="medium" %}, sinon il vous en faudra au moins **trois** pour en avoir une.
+📅 Tous les **samedis à 21 heures**, on remet à zéro le classement : toutes les personnes qui ont trouvé au moins **dix résultats parmi ceux du tableau** repartent avec deux {% include icon/tasse icon="TasseBlanche" dim="small" %}, sinon il vous en faudra au moins **trois** pour en avoir une.
 
