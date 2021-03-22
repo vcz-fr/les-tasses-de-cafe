@@ -8,8 +8,8 @@
         "url": {{ page.url | jsonify }},
         "genres": {{ page.game.genres | jsonify }},
         "platform": {{ page.game.support | jsonify }},
-        "players": {{ page.game.players | jsonify }},
-        "duration": {{ page.game.duration | jsonify }},
+        "players": {{ page.game.players | default: "?" | jsonify }},
+        "duration": {{ page.game.duration | default: "?" | jsonify }},
         "authors": {{ page.game.authors | jsonify }},
         "description": {{ page.game.description | strip_newlines | jsonify }},
         "rules": {{ page.content | strip_html | normalize_whitespace | jsonify }}

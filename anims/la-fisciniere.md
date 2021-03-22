@@ -11,7 +11,6 @@ game:
         where: Discord
 
     players: "2 et plus"
-    duration: "Variable"
     authors:
         - AirDur
 

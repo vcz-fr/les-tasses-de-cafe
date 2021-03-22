@@ -23,7 +23,7 @@ title: "Chercher une animation"
         {%- for e in all -%}
         {%- assign options = options | concat: e -%}
         {%- endfor -%}
-        {%- assign options = options | uniq | sort -%}
+        {%- assign options = options | compact | uniq | sort -%}
         <select name="genre" multiple size={{ options | size | plus: 1 }}>
             <option value="-" selected>-- Peu importe --</option>
             {%- for option in options -%}
@@ -41,7 +41,7 @@ title: "Chercher une animation"
         {%- for e in all -%}
         {%- assign options = options | concat: e -%}
         {%- endfor -%}
-        {%- assign options = options | uniq | sort -%}
+        {%- assign options = options | compact | uniq | sort -%}
         <select name="author" multiple size={{ options | size | plus: 1 }}>
             <option value="-" selected>-- Peu importe --</option>
             {%- for option in options -%}
@@ -54,11 +54,11 @@ title: "Chercher une animation"
         <p>
             Qui durent...
         </p>
-        {%- assign options = "" | split: "" -%}
-        {%- assign all = pages | map: "game" | map: "duration" -%}
-        {%- assign options = all | uniq | sort -%}
+        {%- assign options = pages | group_by_exp: "item", "item.game.duration" | map: "name" | compact | uniq | sort
+        -%}
         <select name="duration" multiple size={{ options | size | plus: 1 }}>
             <option value="-" selected>-- Peu importe --</option>
+            <option value="?">-- Non défini --</option>
             {%- for option in options -%}
             <option value="{{ option }}">{{ option }}</option>
             {%- endfor -%}
@@ -69,14 +69,11 @@ title: "Chercher une animation"
         <p>
             Sur la plateforme...
         </p>
-        {%- assign options = "" | split: "" -%}
-        {%- assign all = pages | map: "game" | map: "support" -%}
-        {%- for e in all -%}
-        {%- assign options = options | push: e.where -%}
-        {%- endfor -%}
-        {%- assign options = options | uniq | sort -%}
+        {%- assign options = pages | group_by_exp: "item", "item.game.support.where" | map: "name" | compact | uniq |
+        sort -%}
         <select name="platform" multiple size={{ options | size | plus: 1 }}>
             <option value="-" selected>-- Peu importe --</option>
+            <option value="?">-- Non défini --</option>
             {%- for option in options -%}
             <option value="{{ option }}">{{ option }}</option>
             {%- endfor -%}
