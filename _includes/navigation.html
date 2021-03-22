@@ -1,10 +1,14 @@
+{%- assign pages = site.pages | where:"layout","game" -%}
 <nav>
-    <input type="radio" checked id="menu1" name="menu" class="menu-input">
-    <label for="menu1">Animations</label>
+    {%- assign all = pages | map: "game" | map: "genres" -%}
+    {%- for e in all -%}
+    {%- assign options = options | concat: e -%}
+    {%- endfor -%}
+    {%- assign options = options | compact | uniq | sort -%}
+    <div class="menu-section-title">Animations</div>
     <div class="menu-section">
-        {% assign games = site.pages | where:"layout","game" %}
-        {% for game in games %}
-            <a href="{{ game.url }}" {% if page.layout == "game" and page.title == game.title %}class="active"{% endif %} >{{ game.title }}</a>
-        {% endfor %}
+        {%- for option in options -%}
+        <a href="/search?genre={{ option }}">{{ option }}</a>
+        {%- endfor -%}
     </div>
 </nav>

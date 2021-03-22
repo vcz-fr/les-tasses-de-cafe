@@ -1,51 +1,33 @@
 nav {
     width: $menu-width;
 
-    & > .menu-input {
-        display: none;
+    & > .menu-section-title {
+        background-color: $theme-beige;
 
-        & + label {
-            display: block;
-            background-color: $theme-mustard;
+        font-family: headings;
+        color: $theme-brown;
 
-            font-family: headings;
-            color: $theme-brown;
+        height: $header-size;
+        line-height: $header-size;
 
-            height: $header-size;
-            line-height: $header-size;
+        cursor: pointer;
+        padding: 0 $header-size / 3;
 
-            cursor: pointer;
-            padding: 0 $header-size / 3;
-        }
-
-        &:checked + label {
+        & + .menu-section {
             background-color: $theme-beige;
-        }
-
-        & + label + .menu-section {
-            display: none;
-        }
-
-        &:checked + label + .menu-section {
-            background-color: $theme-beige;
-            display: block;
-
+    
             & > a {
                 display: block;
                 padding: 0 $header-size / 3;
-
+    
                 height: $header-size;
                 line-height: $header-size;
-
+    
                 color: $theme-brown;
                 text-decoration: none;
-
+    
                 overflow: hidden;
                 text-overflow: ellipsis;
-            }
-
-            & > a.active {
-                background-color: $theme-white;
             }
         }
     }
