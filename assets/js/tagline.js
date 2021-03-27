@@ -415,7 +415,8 @@ const taglines = [
     "On passe le coucou à Catherine Lemercier",
     "Alphard est munie d'un bec verseur",
     "https://danstonchat.com/15508.html",
-    "https://danstonchat.com/19936.html"
+    "https://danstonchat.com/19936.html",
+    "Il faut rendre à La Délégation ce qui est à César."
 ];
 
 const generateRandomInteger = (min = 0, max = 1) => {
