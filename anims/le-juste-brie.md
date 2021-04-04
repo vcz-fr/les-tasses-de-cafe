@@ -108,9 +108,9 @@ rp:
 
 📖 Bienvenue pour cette soirée fondue ! On a juste deux petits soucis... Vous êtes un peu en avance, le caquelon est encore vide. Et on a utilisé tout le fromage pour Raclettres, il ne nous reste plus... que du brie. Mais pas de soucis, on va se débrouiller !
 
-📏 Chacune de vous se verra distribuée 3 🧀 à chaque tour, et vous devrez informer en MP si vous souhaitez mettre 1 :cheese:, 2 :cheese:, ou 3 :cheese: dans la marmite.
-Dans le même MP, vous me direz également le nombre de fromages que vous pensez qu'il y aura dans la marmite en cumulé à la fin du tour !
-Vous me direz, enfin, PLUS :arrow_up: ou MOINS :arrow_down:, si vous pensez que le cumul dépassera votre estimation (:arrow_up:) ou que que votre estimation dépassera le cumul (:arrow_down:).
-Si vous trouvez le résultat exact, pas d'inquiétude, vous aurez le point bonus, qu'importe votre appel.
-À la fin du tour, je révèle le nombre de fromages qu'il y avait en tout, et les trois plus proches marqueront 3, 2 et 1 point. Toutes les personnes ayant correctement appelé PLUS :arrow_up: ou MOINS :arrow_down: marqueront 1 point bonus !
+📏 Chacune de vous se verra distribuée 3 🧀 à chaque tour, et vous devrez informer par **MP** si vous souhaitez mettre 1 🧀, 2 🧀, ou 3 🧀 dans la marmite.
+Dans le même MP, vous direz également le **nombre total** de fromages que vous pensez qu'il y aura dans la marmite à la fin du tour !
+Vous direz, enfin, ⬆️ **plus** ou ⬇️ **moins**, si vous pensez que le total dépassera ou non votre estimation.
+À la fin du tour, on révèle le nombre de fromages qu'il y avait en tout, et les trois plus proches marqueront 3, 2 et 1 point. Toutes les personnes ayant correctement appelé PLUS :arrow_up: ou MOINS :arrow_down: marqueront 1 point bonus !
+*Si vous trouvez le résultat exact, pas d'inquiétude, vous aurez le point bonus, qu'importe votre appel.*
 On répète l'opération pour 10 tours, chaque tour durant 48h, et à la fin, les gagnantes gagnent !
