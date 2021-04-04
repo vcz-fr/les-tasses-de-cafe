@@ -111,7 +111,7 @@ rp:
 📏 Chacune de vous se verra distribuer trois 🧀 à chaque tour, et vous devrez informer par **MP** si vous souhaitez mettre un, deux, ou trois 🧀 dans la marmite.  
 Dans le même MP, vous direz également le **nombre total** de fromages que vous pensez qu'il y aura dans la marmite à la fin du tour !  
 Vous direz, enfin, ⬆️ **plus** ou ⬇️ **moins**, si vous pensez que le total dépassera ou non votre estimation.  
-À la fin du tour, on révèle le nombre de 🧀 qu'il y avait en tout, et les trois plus proches marqueront **3, 2 et 1 point**. Toutes les personnes ayant correctement misé :arrow_up: plus ou :arrow_down: moins marqueront **1 point bonus** !  
+À la fin du tour, on révèle le nombre de 🧀 qu'il y avait en tout, et les trois plus proches marqueront **3, 2 et 1 point**. Toutes les personnes ayant correctement misé ⬆️ plus ou ⬇️ moins marqueront **un point bonus** !  
 ☑️ *Si vous trouvez le résultat exact, pas d'inquiétude, vous aurez le point bonus, qu'importe votre mise.*  
 ⚖️ *Si plusieurs personnes font la même estimation, elles marquent toutes le même nombre de points, les suivantes marquant le rang suivant.*
 
