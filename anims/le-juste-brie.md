@@ -106,11 +106,15 @@ rp:
       text: "Vous auriez pu me laisser finir quand même."
 ---
 
-📖 Bienvenue pour cette soirée fondue ! On a juste deux petits soucis... Vous êtes un peu en avance, le caquelon est encore vide. Et on a utilisé tout le fromage pour Raclettres, il ne nous reste plus... que du brie. Mais pas de soucis, on va se débrouiller !
+📖 Bienvenue pour cette soirée fondue ! On a juste deux petits soucis... D'abord vous êtes un peu en avance, le caquelon est encore vide. Et on a utilisé tout le fromage pour Raclettres, il ne nous reste plus... que du brie. Mais pas de soucis, on va se débrouiller !
 
-📏 Chacune de vous se verra distribuée 3 🧀 à chaque tour, et vous devrez informer par **MP** si vous souhaitez mettre 1 🧀, 2 🧀, ou 3 🧀 dans la marmite.
-Dans le même MP, vous direz également le **nombre total** de fromages que vous pensez qu'il y aura dans la marmite à la fin du tour !
-Vous direz, enfin, ⬆️ **plus** ou ⬇️ **moins**, si vous pensez que le total dépassera ou non votre estimation.
-À la fin du tour, on révèle le nombre de fromages qu'il y avait en tout, et les trois plus proches marqueront 3, 2 et 1 point. Toutes les personnes ayant correctement appelé PLUS :arrow_up: ou MOINS :arrow_down: marqueront 1 point bonus !
-*Si vous trouvez le résultat exact, pas d'inquiétude, vous aurez le point bonus, qu'importe votre appel.*
-On répète l'opération pour 10 tours, chaque tour durant 48h, et à la fin, les gagnantes gagnent !
+📏 Chacune de vous se verra distribuer trois 🧀 à chaque tour, et vous devrez informer par **MP** si vous souhaitez mettre un, deux, ou trois 🧀 dans la marmite.  
+Dans le même MP, vous direz également le **nombre total** de fromages que vous pensez qu'il y aura dans la marmite à la fin du tour !  
+Vous direz, enfin, ⬆️ **plus** ou ⬇️ **moins**, si vous pensez que le total dépassera ou non votre estimation.  
+À la fin du tour, on révèle le nombre de 🧀 qu'il y avait en tout, et les trois plus proches marqueront **3, 2 et 1 point**. Toutes les personnes ayant correctement misé :arrow_up: plus ou :arrow_down: moins marqueront **1 point bonus** !  
+☑️ *Si vous trouvez le résultat exact, pas d'inquiétude, vous aurez le point bonus, qu'importe votre mise.*  
+⚖️ *Si plusieurs personnes font la même estimation, elles marquent toutes le même nombre de points, les suivantes marquant le rang suivant.*
+
+⁉️ La fondue a l'air douée d'une certaine forme de conscience... Il se peut qu'une **règle spéciale** soit appliquée à certains tours, alors restez sur vos gardes.
+
+🗓️ On répète l'opération pour **dix tours** et à la fin, les gagnantes gagnent !
