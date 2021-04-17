@@ -16,7 +16,7 @@ game:
         - Chris Antem
 
     description: |
-        📖 Votre but est de marquer un maximum de points en retrouvant ce qui était dit par votre confrère.
+        Pourquoi apprendre une langue quand on a des émojis. Encore un jeu de zoomer...
 
 rp:
     - type: narrator
