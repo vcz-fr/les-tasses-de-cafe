@@ -20,7 +20,7 @@ game:
 
 rp:
     - type: narrator
-      text: "- Bar des Tassés, Vendredi 05/09/2020, 15:44:28, 19°C, 45°53'57.4"N 6°07'53.2"E -"
+      text: "- Bar des Tassés, Vendredi 05/09/2020, 15:44:28, 19°C, 45°53'57.4\"N 6°07'53.2\"E -"
 
     - type: speech
       actor: Chris
