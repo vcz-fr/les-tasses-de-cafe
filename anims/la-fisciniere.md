@@ -121,27 +121,27 @@ DIABOLO-FRAISE (6) :  1  2  3  4  5  6
 {% include block/accordion title="Message à recopier" content=accordion_content %}
 
 {% capture accordion_content %}
-{% include icon/tasse icon="TasseInconnu" %} **Bouteille d'eau filtrée** / Coût : gratuit / quatre pépites  
+{% include icon/bouteille icon="Bouteille1" %} **Bouteille d'eau filtrée** / Coût : gratuit / quatre pépites  
 **Gain :** 2 {% include icon/tasse icon="TasseInconnu" %} // Pas de perte  
 *Parce qu'on a tous des besoin naturels.*  
 
-{% include icon/tasse icon="TasseInconnu" %} **Vin rôse** / Coût : un {% include icon/tasse icon="TasseInconnu" %} / dix pépites  
+{% include icon/bouteille icon="Bouteille2" %} **Vin rôse** / Coût : un {% include icon/tasse icon="TasseInconnu" %} / dix pépites  
 **Gain :** 1 point // **Perte :** 1 point  
 *Sa couleur rappelle les champs de lavande ou les cheveux d'AirDur, son goût les champs de lavande avec un pointe de banane et une note de cannelle. Du raisin ?*  
 
-{% include icon/tasse icon="TasseInconnu" %} **Potion mentallique**  / Coût : deux {% include icon/tasse icon="TasseInconnu" %} / cinq pépites  
+{% include icon/bouteille icon="Bouteille3" %} **Potion mentallique**  / Coût : deux {% include icon/tasse icon="TasseInconnu" %} / cinq pépites  
 **Gain :** la valeur de la pépite tirée // **Perte :** la valeur de la pépite tirée  
 *Quiconque en boit agit, parle et vit tout ce qu'il pense en le montrant clairement à tout le monde, comme s'ils pouvaient lire en lui. Comme sur les réseaux sociaux.*  
 
-{% include icon/tasse icon="TasseInconnu" %} **Ouiskiski** / Coût : deux {% include icon/tasse icon="TasseInconnu" %} / quatre pépites  
+{% include icon/bouteille icon="Bouteille4" %} **Ouiskiski** / Coût : deux {% include icon/tasse icon="TasseInconnu" %} / quatre pépites  
 **Gain :** Le prochain gain de points est doublé // **Perte :** La prochaine perte de points est doublée  
 *Ce breuvage, renforcé en dopamine, met en joie et fait sourire quiconque en porte à sa bouche.*  
 
-{% include icon/tasse icon="TasseInconnu" %} **Vin tandage** Coût : trois {% include icon/tasse icon="TasseInconnu" %} / huit pépites  
+{% include icon/bouteille icon="Bouteille5" %} **Vin tandage** Coût : trois {% include icon/tasse icon="TasseInconnu" %} / huit pépites  
 **Gain :** 9 moins le nombre de pépites restantes dans cette bouteille // **Perte :** 9 moins le nombre de pépites restantes dans cette bouteille  
 *Boire ce vin à l'extrait de chêne liège, c'est comme tirer à pile ou face. Soit il vous en bouche un coin, soit vous bouchez les toilettes.*  
 
-{% include icon/tasse icon="TasseInconnu" %} **Diabolo-fraise** / Coût : quatre {% include icon/tasse icon="TasseInconnu" %} / six pépites  
+{% include icon/bouteille icon="Bouteille6" %} **Diabolo-fraise** / Coût : quatre {% include icon/tasse icon="TasseInconnu" %} / six pépites  
 **Gain :** 6 points pour une pépite de valeur paire, 4 sinon // **Perte :** vous ne pourrez pas faire d'action gratuite le lendemain.  
 *Un Diabolo-Fraise, à base de Vodka pétillante et de liqueur de Fraise. Tonique !*
 {% endcapture %}
