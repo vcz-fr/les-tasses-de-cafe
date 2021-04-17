@@ -24,7 +24,7 @@ title: "Chercher une animation"
         {%- assign options = options | concat: e -%}
         {%- endfor -%}
         {%- assign options = options | compact | uniq | sort -%}
-        <select name="genre" multiple size={{ options | size | plus: 1 }}>
+        <select name="genre" multiple size="5">
             <option value="-" selected>-- Peu importe --</option>
             {%- for option in options -%}
             <option value="{{ option }}">{{ option }}</option>
@@ -42,7 +42,7 @@ title: "Chercher une animation"
         {%- assign options = options | concat: e -%}
         {%- endfor -%}
         {%- assign options = options | compact | uniq | sort -%}
-        <select name="author" multiple size={{ options | size | plus: 1 }}>
+        <select name="author" multiple size="5">
             <option value="-" selected>-- Peu importe --</option>
             {%- for option in options -%}
             <option value="{{ option }}">{{ option }}</option>
@@ -56,9 +56,8 @@ title: "Chercher une animation"
         </p>
         {%- assign options = pages | group_by_exp: "item", "item.game.duration" | map: "name" | compact | uniq | sort
         -%}
-        <select name="duration" multiple size={{ options | size | plus: 1 }}>
+        <select name="duration" multiple size="5">
             <option value="-" selected>-- Peu importe --</option>
-            <option value="?">-- Non défini --</option>
             {%- for option in options -%}
             <option value="{{ option }}">{{ option }}</option>
             {%- endfor -%}
@@ -71,9 +70,8 @@ title: "Chercher une animation"
         </p>
         {%- assign options = pages | group_by_exp: "item", "item.game.support.where" | map: "name" | compact | uniq |
         sort -%}
-        <select name="platform" multiple size={{ options | size | plus: 1 }}>
+        <select name="platform" multiple size="5">
             <option value="-" selected>-- Peu importe --</option>
-            <option value="?">-- Non défini --</option>
             {%- for option in options -%}
             <option value="{{ option }}">{{ option }}</option>
             {%- endfor -%}
