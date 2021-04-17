@@ -24,7 +24,7 @@ rp:
       text: "J'ai la flemme d'en faire un là. Au moment où j'écris ça j'ai dûr faire quoi, cinq pages et plein de corrections. Je suis vidé. Donc pour le moment il n'y aura pas de RP."
 ---
 
-📊 Le but du jeu est d'être les plus gros Pictass du serveur. Vous serez par équipe de 2 et devrez spéculer sur la valeur de 2 actions : les actions {% include icon/tasse icon="TasseInconnu" %} et les actions {% include icon/tasse icon="TasseBleue" %} grâce à la monnaie de l'animation, des 🥜. On avait pas les moyens pour des billets.  
+📊 Le but du jeu est d'être les plus gros Pictass du serveur. Vous serez par équipe de 2 et devrez spéculer sur la valeur de 2 actions : les actions {% include icon/tasse icon="TasseBleue" %} et les actions {% include icon/tasse icon="TasseOrange" %} grâce à la monnaie de l'animation, des 🥜. On avait pas les moyens pour des billets.  
 
 Chaque équipe commence avec 50 🥜, que vous pouvez échanger n'importe quand **du lundi au samedi** contre des {% include icon/tasse icon="TasseBleue" %} ou des {% include icon/tasse icon="TasseOrange" %}, le prix variant chaque soir sauf les samedis et dimanches.
 Tous les **dimanches**, on vous versera des dividendes (soit quelques 🥜 pour chaque action que vous possédez) et le fruit de vos spéculations.  
