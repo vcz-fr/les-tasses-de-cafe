@@ -17,7 +17,7 @@ game:
         - Le Codex
 
     description: |
-        📖 Votre but est de marquer un maximum de points en posant des tasses de couleur avant que celle-ci ne s'effondre dans de mystérieuses circonstances...
+        Posez vos tasses de couleur sur la pile avant que celle-ci ne s'effondre dans de mystérieuses circonstances...
 
 rp:
     - type: speech
