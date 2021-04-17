@@ -12,7 +12,7 @@ game:
         where: Discord
 
     players: "2 et plus"
-    duration: "Cinq manches"
+    duration: "Longue (plus de deux semaines)"
     authors:
         - Chris Antem
 
