@@ -137,7 +137,7 @@ DIABOLO-FRAISE (6) :  1  2  3  4  5  6
 **Gain :** Le prochain gain de points est doublé // **Perte :** La prochaine perte de points est doublée  
 *Ce breuvage, renforcé en dopamine, met en joie et fait sourire quiconque en porte à sa bouche.*  
 
-{% include icon/bouteille icon="Bouteille5" %} **Vin tandage** Coût : trois {% include icon/tasse icon="TasseInconnu" %} / huit pépites  
+{% include icon/bouteille icon="Bouteille5" %} **Vin tandage** / Coût : trois {% include icon/tasse icon="TasseInconnu" %} / huit pépites  
 **Gain :** 9 moins le nombre de pépites restantes dans cette bouteille // **Perte :** 9 moins le nombre de pépites restantes dans cette bouteille  
 *Boire ce vin à l'extrait de chêne liège, c'est comme tirer à pile ou face. Soit il vous en bouche un coin, soit vous bouchez les toilettes.*  
 
