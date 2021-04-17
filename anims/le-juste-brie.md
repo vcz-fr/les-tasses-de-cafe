@@ -11,7 +11,7 @@ game:
         where: Discord
 
     players: "2 et plus"
-    duration: "Vingt jours"
+    duration: "Longue (plus de deux semaines)"
     authors:
         - Alphard
 
