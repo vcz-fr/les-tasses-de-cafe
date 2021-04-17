@@ -100,7 +100,7 @@ rp:
 Pour commencer à jouer, pinguez @Serveur, qui vous donnera une main avec **vingt** tasses au hasard par MP. À **midi** et à **minuit**, vous recevez dix tasses supplémentaires, dans la limite des vingt tasses.
 
 🔋 Quand l'envie vous prend, jouez l'une de vos tasses en piguant @Serveur et en indiquant l'émoji de la tasse que vous souhaitez jouer (ou son numéro). Elle ira en haut de la pile. Pour rejouer, vous devrez attendre quelqu'un d'autre, ou que la pile s'effondre.
-Il y a **cinq couleurs** de tasses : {% include icon/tasse icon="TasseInconnu" %}, {% include icon/tasse icon="TasseInconnu" %}, {% include icon/tasse icon="TasseInconnu" %}, {% include icon/tasse icon="TasseInconnu" %}, et {% include icon/tasse icon="TasseInconnu" %}, c'est-à-dire toutes les _tasses spéciales_, considérées d'une même couleur en plus d'avoir un effet.
+Il y a **cinq couleurs** de tasses : {% include icon/tasse icon="TasseStop" %}, {% include icon/tasse icon="TasseRec" %}, {% include icon/tasse icon="TassePlay" %}, {% include icon/tasse icon="TassePause" %}, et {% include icon/tasse icon="TasseInconnu" %}, c'est-à-dire toutes les _tasses spéciales_, considérées d'une même couleur en plus d'avoir un effet.
 À chaque remplissage de main, trois _tasses spéciales_ seront choisies au hasard. Ce sont les seules que vous pourrez piocher à ce moment-là.
 
 🎳 Si lorsque vous posez votre tasse, il y a **une tasse de chaque couleur** présente dans la pile, ou si une couleur se trouve en **cinq exemplaires**, celle-ci s'effondre !
@@ -123,9 +123,9 @@ Il y a **cinq couleurs** de tasses : {% include icon/tasse icon="TasseInconnu" %
 {% include icon/tasse icon="TasseFeu" %} **Tasse de feu >** Chauffe les tasses d'en-dessous jusqu'à tomber sur une {% include icon/tasse icon="TasseInconnu" %}, ce qui la ré-active.  
 {% include icon/tasse icon="TasseRadiocommandee" %} **Tasse radiocommandée >** Vous remplacez toutes les tasses de votre main avec la même couleur que celle placée dessous, puis en piochez autant.  
 {% include icon/tasse icon="TasseVolante" %} **Tasse volante >** Vous récupérez le contrôle de la tasse qui la supporte.  
-{% include icon/tasse icon="TasseInconnu" %} **Tasse en iridium >** Devient l'une des autres tasses de la pile, au hasard.  
-{% include icon/tasse icon="TasseInconnu" %} **Aléatasse >** Mélange l'ordre des tasses de la pile, on sait jamais...  
-{% include icon/tasse icon="TasseInconnu" %} **Tassus >**  Assassine la tasse placée dessous lorsqu'une tasse de la même couleur est posée.  
-{% include icon/tasse icon="TasseInconnu" %} **Tassepartout >** S'il y a 3 tasses ou plus de la même couleur que la tasse d'en-dessous, la pile s'effondre.
+{% include icon/tasse icon="TasseIridium" %} **Tasse en iridium >** Devient l'une des autres tasses de la pile, au hasard.  
+{% include icon/tasse icon="Aleatasse" %} **Aléatasse >** Mélange l'ordre des tasses de la pile, on sait jamais...  
+{% include icon/tasse icon="Tassus" %} **Tassus >**  Assassine la tasse placée dessous lorsqu'une tasse de la même couleur est posée.  
+{% include icon/tasse icon="Tassepartout" %} **Tassepartout >** S'il y a 3 tasses ou plus de la même couleur que la tasse d'en-dessous, la pile s'effondre.
 {% endcapture %}
 {% include block/accordion title="Tasses spéciales" content=accordion_content %}
