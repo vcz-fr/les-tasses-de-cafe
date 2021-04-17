@@ -137,6 +137,7 @@ Au madison, il y a quatre pas à retenir, qu'on appellera 1️⃣, 2️⃣, 3️
 Pour entrer dans la danse c'est simple :
 - Recopiez la piste précédente et ajoutez-y l'un des pas qui vous restent, selon les contraintes de placement. Si par exemple vous avez posé votre 1️⃣, vous ne pourrez plus le jouer par la suite avant de le récupérer. Éditer la piste de danse rend le coup invalide.  
 - Si le coup est bon, recopiez le classement, mettez-le à jour et postez-le. Les autres ne pourront jouer que lorsque vous aurez posté ce classement ou cinq minutes après votre coup, si vous l'oubliez. Vous pouvez l'éditer en cas d'erreur.  
+
 🕛 *Vous ne pouvez pas poser plusieurs pas à la suite, et devez donc attendre que quelqu'un d'autre le fasse pour pouvoir rejouer. Si personne n'a joué durant les 12 dernières heures, vous pouvez vider la piste et rejouer.*
 
 📟 Il y a deux façons de marquer des points à ce jeu :
