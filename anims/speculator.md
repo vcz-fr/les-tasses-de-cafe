@@ -13,7 +13,7 @@ game:
         link: "https://tasses.cafe"
 
     players: "2 et plus"
-    duration: "Dix jours"
+    duration: "Moyenne (entre une et deux semaines)"
     authors:
         - Chris Antem
 
