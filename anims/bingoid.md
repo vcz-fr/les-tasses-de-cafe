@@ -124,7 +124,7 @@ Si plusieurs bingos arrivent en même temps, ils sont tous comptés (vous pouvez
 {% include icon/boule icon="BouleOrange" %} **Boule effaçable >**  Si le joueur qui la prend ne coche pas de nouveau numéro ce tour, il peut relancer un nouveau dé.  
 {% include icon/boule icon="BouleBlanche" %} **Boule à facettes >** Si le bingo arrive à l'arrivée de cette boule, le joueur qui l'a prise gagne 5 points supplémentaires !  
 {% include icon/boule icon="BouleGrise" %} **Boule de pétanque >** Si le joueur qui la prend ne coche pas de nouveau numéro, il peut voler un point au joueur de son choix !  
-{% include icon/boule icon="BouleViolette" %} **Boule à la prune >** Le joueur qui prend la boule lance deux dés à 4 faces et gagne la différence entre les deux en points. S'il oublie les deux dés, il ne gagne rien.  
+{% include icon/boule icon="BouleMauve" %} **Boule à la prune >** Le joueur qui prend la boule lance deux dés à 4 faces et gagne la différence entre les deux en points. S'il oublie les deux dés, il ne gagne rien.  
 {% include icon/tasse icon="TasseInconnu" %} **Boule de pâte à modeler >** C'est l'animateur qui décide de son effet.  
 {% include icon/tasse icon="TasseRetournee" %} **Cache-boule >** Il cache l'une des boules précédentes, mais laquelle... C'est un peu comme au bonneteau, sauf que vous gagnez à la fin.
 {% endcapture %}
