@@ -1,0 +1,1 @@
+<img alt="Icone Boule {{ include.icon }}" class="icon {{ include.dim | default: 'small' }}" src="/assets/img/icons/boules/{{ include.icon }}.svg">
