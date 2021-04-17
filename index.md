@@ -6,27 +6,18 @@ title: "Les Tassés de Café"
 
 ## Salut les Gobelets !
 
-{% include icon/tasse icon="TasseBlanche" dim="large" %}
+Si vous êtes ici, c'est certainement pour échapper à la réalité moderne mais morne, à votre vie quotidienne banale, terne et loin d'être envieuse, et trouver de quoi occuper votre esprit malade et broyant du noir. Je sais, ça fait mal de lire ça. Mais vous savez quoi ? **On s'en fout !**  
+{% include icon/tasse icon="TasseBlanche"%} Bienvenue dans une communauté talentueuse, drôle, fun, peps et qui fait ses besoins toute seule : celle des **Les Tassés de Café** !  
 
-Vous cherchez une communauté drôle, fun, peps et qui fait ses besoins toute seule ?  
-Alors ne cherchez plus, on l'a trouvée et ça tombe bien, vous l'avez juste devant vos yeux : **_Les Tassés de Café_** ! Dans ce bar ouvert depuis 2009, ChrisAntem et Braxer, les **Pôtrons** de cet établissement, leurs **Intermittents** et les **Tassés** vous donnent des cours de Tassitude pour chaque tasse lancée !
+Dans ce bar à jeux virtuel ouvert depuis 2009 (oui ça commence à dater), la *Délégation* formée par *Chris Antem* et *Braxer* cherche à convertir tout ce qui existe à la **Tassitude**, un art de vivre crée par le prophète disparu *Dip Naït* consistant à balancer des tasses sur tout ce qui existe :  
+- Votre réseau social préféré vous connaît mieux que vous ? **Tassez-le !**
+- Votre voisine du dessus a décidé de s'entraîner à Sokoban pour la quatrième fois cette semaine ? **Tassez-la !**
+- Un inconnu vous offre des fleurs ? **Tassez-le !**
+- Vos amis vous tuent lors du premier jour d'une partie de Loups-Garous comptant pour les championnats du monde ? **Tassez-les !**
 
-- Votre ordinateur ne veut pas lancer votre partie de Galaxy55 sous prétexte que le jeu est abandonné ? Tassez-le !
-- Votre moitié a décidé de vous faire manger une salade de choux puis d'avoir mal au crâne ce soir ? Tassez-la !
-- Un inconnu vous offre des fleurs ? Tassez-le !
-- Les admins font une MàJ de Twinoid incluant des groupes gratuits, alors que vous étiez bien sans rien ? Tassez-les !
+🎲 Depuis tout ce temps nous avons crée plusieurs dizaines de jeux et d'animations en tous genres et pour tous les goûts ! Ce site sert à tout regrouper au même endroit pour ne plus avoir à chercher pendant des plombes parce que bah c'est long quoi.  
+*Vous pouvez vous servir si ça vous intéresse, un jeu c'est fait pour être joué !*
 
-🔍 Ouvrez-vous aux préceptes du grand **Dip Naït**, prophète disparu de son état, et entrez dans les rangs grâce à un serveur Discord regorgeant de mystère !
+{% include icon/tasse icon="TasseDiscord"%} Nous avons aussi un **serveur Discord**, la place à être si vous voulez jouer à nos jeux dans les meilleures conditions possibles, ou discuter entre amis dans une ambiance sereine... On plaisante, y'a que du drama là-bas. Mais y'a aussi plein de tasses. C'est cool les tasses.
 
-🎲 Jouez **aux dizaines d'animations** de toutes sortes (tournois, chance, créatif, quiz, etc.). Vous avez même le droit d'en animer chez nous ! Délirez entre amis ou profitez d'un peu de repos dans un paysage bucolique... Nan, on plaisante.
-
-{% if site.social.discord != null %}
-{% capture text %}
-Maintenant c'est sur <a href="https://discord.gg/{{ site.social.discord }}">Discord</a> que les Tassés font n'importe quoi, et ils ont besoin de vous !
-{% endcapture %}
-{% include block/tooltip text=text type="info" %}
-{% endif %}
-
-{% include icon/tasse icon="TasseCouronne" dim="medium" %}
-**Alors, vous attendez quoi, rejoindez-nous !**
-{% include icon/tasse icon="TasseDiscord" dim="medium" %}
+🦃 Nous disposons également d'un **Twitter**, mais on ne sait pas encore quoi faire de ce truc. Vous pouvez vous abonner quand même.
