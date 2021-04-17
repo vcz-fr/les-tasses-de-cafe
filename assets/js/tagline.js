@@ -316,7 +316,7 @@ const taglines = [
     "Nan mais quand on dit “21 heures”, c’est au sens large.",
     "Ce serveur est reconnu internationalement.",
     "J’ai écrit ce slogan sans les mains, ça ma pris trois heuredzq.",
-    "On a même un Barman sur le serveur.",
+    "On a même un Serveur dans le bar, man.",
     "La vérité sort de la bouche des menteurs.",
     "Les frais de port sont inclus.",
     "#PayeTonIntermittent",
