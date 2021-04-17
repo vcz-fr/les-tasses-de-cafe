@@ -18,9 +18,7 @@ game:
         - Chris Antem
 
     description: |
-        Vous aimez les vieux jeux d'arcades ?
-        vous ètes un g@m3r qui se la joue avec ces jeux sur navigateur ?
-        alors vous ètes invité au spéculator !
+        Enfin une compétition d'arcade où vous pouvez gagner sans avoir de skill !
 
 rp:
 
