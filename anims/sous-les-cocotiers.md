@@ -92,6 +92,7 @@ Prenez place sous l'une d'entre elles (*chacune ne peut accueillir qu'une seule 
 - 🥥 Si une noix de coco vous tombe dessus, vous pouvez la garder, il paraît que certaines personnes aiment ça, ou l'échanger contre quelques {% include icon/tasse icon="TasseBlanche" %}.  
 - 🎳 Si c'est une boule de bowling, vous serez contraint à une petite bronzette à l’ombre. Ça ne rapporte rien, si ce n'est un mal de crâne et un trou dans le parquet.  
 - 🍃 Si rien ne vous tombe dessus, vous marquez un point.  
+
 La partie se termine lorsque quelqu'un arrivera à faire tomber la vraie pluie, avec de l’eau et tout !  
 On fait alors le compte des points, ce qui vous permettra de gagner quelques tasses.
 
