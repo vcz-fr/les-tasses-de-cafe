@@ -1,7 +1,7 @@
 ---
 layout: game
 
-title: Buvette Russe
+title: Buvette russe
 
 game:
     genres:
