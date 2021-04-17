@@ -11,6 +11,7 @@ game:
         where: Discord
 
     players: "2 et plus"
+    duration: "Moyenne (entre une et deux semaines)"
     authors:
         - AirDur
 
