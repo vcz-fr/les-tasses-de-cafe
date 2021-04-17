@@ -1,36 +1,39 @@
-.accordion > input {
-    display: none;
+.accordion {
+    background-color: $theme-white;
+    padding: 1rem;
 
-    & + label {
-        display: block;
-
-        font-family: headings;
-
-        height: $header-size;
-        line-height: $header-size;
-
-        border-bottom: 2px solid $theme-brown;
-
-        cursor: pointer;
-        padding: 0 $header-size / 3;
-
-        &:before {
-            content: "\\/";
-            margin: 0.5rem;
-        }
-    }
-
-    & + label + div {
+    & > input {
         display: none;
-    }
 
-    &:checked + label {
-        &:before {
-            content: "/\\";
+        & + label {
+            display: block;
+
+            font-family: headings;
+
+            height: $header-size;
+            line-height: $header-size;
+
+            cursor: pointer;
+            padding: 0 $header-size / 3;
+
+            &:before {
+                content: "▼";
+                margin: 0.5rem;
+            }
         }
 
-        & + div {
-            display: block;
+        & + label + div {
+            display: none;
+        }
+
+        &:checked + label {
+            &:before {
+                content: "▲";
+            }
+
+            & + div {
+                display: block;
+            }
         }
     }
 }
