@@ -21,7 +21,7 @@ game:
 
 rp:
     - type: narrator
-      text: "Soirée "Danse avec les loups" au bar. Au programme, de la danse et du poisson"
+      text: "Soirée \"Danse avec les loups\" au bar. Au programme, de la danse et du poisson"
 
     - type: speech
       actor: AirDur
@@ -126,9 +126,9 @@ rp:
 ---
 
 📔 Vous allez twister sur cette piste de danse :
-🔴🔴🔵🔵
-🔴🔴🔵🔵
-⚪⚪⚫⚫
+🔴🔴🔵🔵  
+🔴🔴🔵🔵  
+⚪⚪⚫⚫  
 ⚪⚪⚫⚫  
 Elle est composée de quatre lignes, quatre colonnes et quatre zones colorées.  
 Au madison, il y a quatre pas à retenir, qu'on appellera 1️⃣, 2️⃣, 3️⃣ et 4️⃣. Pour commencer, vous en avez un de chaque. Sur la piste de danse, deux pas identiques **ne doivent pas** être sur la même *ligne*, la même *colonne* ou la même *zone*.
