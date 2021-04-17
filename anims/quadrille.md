@@ -125,7 +125,7 @@ rp:
       text: "Dire qu'ils pourraient demander à la championne départementale de Just Dance de Seine-et-Oise pour leur montrer. Tent pis..."
 ---
 
-📔 Vous allez twister sur cette piste de danse :
+📔 Vous allez twister sur cette piste de danse :  
 🔴🔴🔵🔵  
 🔴🔴🔵🔵  
 ⚪⚪⚫⚫  
