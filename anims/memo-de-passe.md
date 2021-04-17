@@ -11,7 +11,7 @@ game:
         where: Discord
 
     players: "2 et plus"
-    duration: "Une semaine"
+    duration: "Courte (moins d'une semaine)"
     authors:
         - AirDur
         - Chris Antem
