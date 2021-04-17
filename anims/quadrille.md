@@ -155,8 +155,8 @@ Si vous ne pouvez pas poser de pas mais qu'il est possible pour un autre joueur 
 · · * *
 ```
 ```
-Joueur (score) : \[chiffres placés\]
-Joueur (score) : \[chiffres placés\]
+Joueur (score) : [chiffres placés]
+Joueur (score) : [chiffres placés]
 ```
 {% endcapture %}
 {% include block/accordion title="Messages à recopier" content=accordion_content %}
