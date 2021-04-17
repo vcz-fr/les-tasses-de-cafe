@@ -11,7 +11,7 @@ game:
         where: Discord
 
     players: "2 et plus"
-    duration: "Une semaine"
+    duration: "Moyenne (entre une et deux semaines)"
     authors:
         - Alix Eisenhardt
 
