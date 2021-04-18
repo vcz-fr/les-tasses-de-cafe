@@ -20,4 +20,4 @@ Dans ce bar à jeux virtuel ouvert depuis 2009 (oui ça commence à dater), la *
 
 {% include icon/tasse icon="TasseDiscord"%} Nous avons aussi un **serveur Discord**, la place à être si vous voulez jouer à nos jeux dans les meilleures conditions possibles, ou discuter entre amis dans une ambiance sereine... On plaisante, y'a que du drama là-bas. Mais y'a aussi plein de tasses. C'est cool les tasses.
 
-🦃 Nous disposons également d'un **Twitter**, mais on ne sait pas encore quoi faire de ce truc. Vous pouvez vous abonner quand même.
+{% include icon/tasse icon="TasseTwitter"%} Nous disposons également d'un **Twitter**, mais on ne sait pas encore quoi faire de ce truc. Vous pouvez vous abonner quand même.
