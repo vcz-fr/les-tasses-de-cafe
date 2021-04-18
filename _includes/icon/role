@@ -1,0 +1,1 @@
+<img alt="Icone Rôle {{ include.icon }}" class="icon {{ include.dim | default: 'small' }}" src="/assets/img/icons/roles/{{ include.icon }}.svg">
