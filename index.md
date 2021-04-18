@@ -15,7 +15,7 @@ Dans ce bar à jeux virtuel ouvert depuis 2009 (oui ça commence à dater), la *
 - Un inconnu vous offre des fleurs ? **Tassez-le !**
 - Vos amis vous tuent lors du premier jour d'une partie de Loups-Garous comptant pour les championnats du monde ? **Tassez-les !**
 
-🎲 Depuis tout ce temps nous avons crée plusieurs dizaines de jeux et d'animations en tous genres et pour tous les goûts ! Ce site sert à tout regrouper au même endroit pour ne plus avoir à chercher pendant des plombes parce que bah c'est long quoi.  
+{% include icon/tasse icon="Aleatasse"%} Depuis tout ce temps nous avons crée plusieurs dizaines de jeux et d'animations en tous genres et pour tous les goûts ! Ce site sert à tout regrouper au même endroit pour ne plus avoir à chercher pendant des plombes parce que bah c'est long quoi.  
 *Vous pouvez vous servir si ça vous intéresse, un jeu c'est fait pour être joué !*
 
 {% include icon/tasse icon="TasseDiscord"%} Nous avons aussi un **serveur Discord**, la place à être si vous voulez jouer à nos jeux dans les meilleures conditions possibles, ou discuter entre amis dans une ambiance sereine... On plaisante, y'a que du drama là-bas. Mais y'a aussi plein de tasses. C'est cool les tasses.
