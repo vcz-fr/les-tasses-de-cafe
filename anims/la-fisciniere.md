@@ -104,7 +104,7 @@ Pour jouer, choisissez une bouteille (si vous avez assez de {% include icon/role
 Une bouteille est aussi réinitialisée quand toutes les pépites ont été tirées.  
 *Une fois le dé lancé, recopiez le texte ci-dessous en enlevant la pépite tirée ou en ajoutant toutes les pépites dans le cas d'une réinitialisation.*
 
-Vous pouvez aussi, pour un {% include icon/roles icon="FiltreACafe" %}, réinitialiser le contenu de la bouteille de votre choix. Vous devrez alors immédiatement piocher dedans en utilisant un second {% include icon/roles icon="FiltreACafe" %}.
+Vous pouvez aussi, pour un {% include icon/roles icon="FiltreACafe" %}, réinitialiser le contenu de la bouteille de votre choix. Vous devrez alors immédiatement piocher dedans en dépensant le nombre de {% include icon/roles icon="FiltreACafe" %} demandés.
 
 Lorsque quelqu'un atteint **30 points**, il aura de quoi faire chanter Chris pour qu'il paye enfin ses impôts et gagnera la partie ! *Attention, il chante mal !*
 
