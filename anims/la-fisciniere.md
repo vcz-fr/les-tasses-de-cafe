@@ -91,20 +91,20 @@ rp:
       text: "Et apparemment le trésorier ordurier s'est barré en nous laissant une barre. Champagne ?"
 ---
 
-Afin de récupérer les pépites que Chris a planqué, vous possédez au début du jeu 2 {% include icon/roles icon="FiltreACafe" %} chacun, que vous pouvez utiliser pour aller les piocher dans les bouteilles du bar.  
+Afin de récupérer les pépites que Chris a planqué, vous possédez au début du jeu 2 {% include icon/role icon="FiltreACafe" %} chacun, que vous pouvez utiliser pour aller les piocher dans les bouteilles du bar.  
 Tous les jours, vous avez le droit à une action gratuite, au choix : 
-- Gagner un {% include icon/roles icon="FiltreACafe" %} sans rien faire (à part prévenir),
+- Gagner un {% include icon/role icon="FiltreACafe" %} sans rien faire (à part prévenir),
 - Piocher dans la *bouteille d'eau filtrée*. C'est d'ailleurs le seul moyen d'accéder à cette bouteille.
 
-Pour jouer, choisissez une bouteille (si vous avez assez de {% include icon/roles icon="FiltreACafe" %}) et lancez un dé correspondant au nombre initial de pépites dans la bouteille pour en piocher une. Chaque pépite est numérotée.  
+Pour jouer, choisissez une bouteille (si vous avez assez de {% include icon/role icon="FiltreACafe" %}) et lancez un dé correspondant au nombre initial de pépites dans la bouteille pour en piocher une. Chaque pépite est numérotée.  
 - Si vous piochez une pépite qui n'a **pas été piochée**, vous gagnez ce qui est écrit sur l'étiquette de la bouteille. 
 - Si vous piochez une pépite dont le numéro a **déjà été pioché**, vous perdez ce qui est aussi écrit sur la bouteille. Son contenu est alors réinitialisé, comme si rien n'avait été pioché.
-- Si vous piochez la dernière pépite d'une bouteille, le gain est doublé, sauf pour la *bouteille d'eau filtrée* où vous gagnez un {% include icon/roles icon="FiltreACafe" %} en plus.
+- Si vous piochez la dernière pépite d'une bouteille, le gain est doublé, sauf pour la *bouteille d'eau filtrée* où vous gagnez un {% include icon/role icon="FiltreACafe" %} en plus.
 
 Une bouteille est aussi réinitialisée quand toutes les pépites ont été tirées.  
 *Une fois le dé lancé, recopiez le texte ci-dessous en enlevant la pépite tirée ou en ajoutant toutes les pépites dans le cas d'une réinitialisation.*
 
-Vous pouvez aussi, pour un {% include icon/roles icon="FiltreACafe" %}, réinitialiser le contenu de la bouteille de votre choix. Vous devrez alors immédiatement piocher dedans en dépensant le nombre de {% include icon/roles icon="FiltreACafe" %} demandés.
+Vous pouvez aussi, pour un {% include icon/role icon="FiltreACafe" %}, réinitialiser le contenu de la bouteille de votre choix. Vous devrez alors immédiatement piocher dedans en dépensant le nombre de {% include icon/role icon="FiltreACafe" %} demandés.
 
 Lorsque quelqu'un atteint **30 points**, il aura de quoi faire chanter Chris pour qu'il paye enfin ses impôts et gagnera la partie ! *Attention, il chante mal !*
 
@@ -122,26 +122,26 @@ DIABOLO-FRAISE (6) :  1  2  3  4  5  6
 
 {% capture accordion_content %}
 {% include icon/bouteille icon="Bouteille1" %} **Bouteille d'eau filtrée** / Coût : gratuit / quatre pépites  
-**Gain :** 2 {% include icon/roles icon="FiltreACafe" %} // Pas de perte  
+**Gain :** 2 {% include icon/role icon="FiltreACafe" %} // Pas de perte  
 *Parce qu'on a tous des besoin naturels.*  
 
-{% include icon/bouteille icon="Bouteille2" %} **Vin rôse** / Coût : un {% include icon/roles icon="FiltreACafe" %} / dix pépites  
+{% include icon/bouteille icon="Bouteille2" %} **Vin rôse** / Coût : un {% include icon/role icon="FiltreACafe" %} / dix pépites  
 **Gain :** 1 point // **Perte :** 1 point  
 *Sa couleur rappelle les champs de lavande ou les cheveux d'AirDur, son goût les champs de lavande avec un pointe de banane et une note de cannelle. Du raisin ?*  
 
-{% include icon/bouteille icon="Bouteille3" %} **Potion mentallique**  / Coût : deux {% include icon/roles icon="FiltreACafe" %} / cinq pépites  
+{% include icon/bouteille icon="Bouteille3" %} **Potion mentallique**  / Coût : deux {% include icon/role icon="FiltreACafe" %} / cinq pépites  
 **Gain :** la valeur de la pépite tirée // **Perte :** la valeur de la pépite tirée  
 *Quiconque en boit agit, parle et vit tout ce qu'il pense en le montrant clairement à tout le monde, comme s'ils pouvaient lire en lui. Comme sur les réseaux sociaux.*  
 
-{% include icon/bouteille icon="Bouteille4" %} **Ouiskiski** / Coût : deux {% include icon/roles icon="FiltreACafe" %} / quatre pépites  
+{% include icon/bouteille icon="Bouteille4" %} **Ouiskiski** / Coût : deux {% include icon/role icon="FiltreACafe" %} / quatre pépites  
 **Gain :** Le prochain gain de points est doublé // **Perte :** La prochaine perte de points est doublée  
 *Ce breuvage, renforcé en dopamine, met en joie et fait sourire quiconque en porte à sa bouche.*  
 
-{% include icon/bouteille icon="Bouteille5" %} **Vin tandage** / Coût : trois {% include icon/roles icon="FiltreACafe" %} / huit pépites  
+{% include icon/bouteille icon="Bouteille5" %} **Vin tandage** / Coût : trois {% include icon/role icon="FiltreACafe" %} / huit pépites  
 **Gain :** 9 moins le nombre de pépites restantes dans cette bouteille // **Perte :** 9 moins le nombre de pépites restantes dans cette bouteille  
 *Boire ce vin à l'extrait de chêne liège, c'est comme tirer à pile ou face. Soit il vous en bouche un coin, soit vous bouchez les toilettes.*  
 
-{% include icon/bouteille icon="Bouteille6" %} **Diabolo-fraise** / Coût : quatre {% include icon/roles icon="FiltreACafe" %} / six pépites  
+{% include icon/bouteille icon="Bouteille6" %} **Diabolo-fraise** / Coût : quatre {% include icon/role icon="FiltreACafe" %} / six pépites  
 **Gain :** 6 points pour une pépite de valeur paire, 4 sinon // **Perte :** vous ne pourrez pas faire d'action gratuite le lendemain.  
 *Un Diabolo-Fraise, à base de Vodka pétillante et de liqueur de Fraise. Tonique !*
 {% endcapture %}
