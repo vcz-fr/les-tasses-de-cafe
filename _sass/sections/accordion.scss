@@ -1,6 +1,5 @@
 .accordion {
     background-color: $theme-white;
-    padding: 1rem;
 
     & > input {
         display: none;
@@ -10,11 +9,8 @@
 
             font-family: headings;
 
-            height: $header-size;
-            line-height: $header-size;
-
             cursor: pointer;
-            padding: 0 $header-size / 3;
+            padding: 1rem;
 
             &:before {
                 content: "▼";
@@ -33,6 +29,7 @@
 
             & + div {
                 display: block;
+                padding: 0 1rem 1rem;
             }
         }
     }

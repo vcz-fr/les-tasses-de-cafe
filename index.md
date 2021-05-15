@@ -18,8 +18,8 @@ Dans ce bar à jeux virtuel ouvert depuis 2009 (oui ça commence à dater), la *
 {% include icon/tasse icon="Aleatasse"%} Depuis tout ce temps nous avons crée plusieurs dizaines de jeux et d'animations en tous genres et pour tous les goûts ! Ce site sert à tout regrouper au même endroit pour ne plus avoir à chercher pendant des plombes parce que bah c'est long quoi.  
 *Vous pouvez vous servir si ça vous intéresse, un jeu c'est fait pour être joué !*
 
-{% include icon/tasse icon="TasseDiscord"%} Nous avons aussi un **[serveur Discord](https://discord.gg/{{ site.social.discord }})**, la place à être si vous voulez jouer à nos jeux dans les meilleures conditions possibles, ou discuter entre amis dans une ambiance sereine... On plaisante, y'a que du drama là-bas. Mais y'a aussi plein de tasses. C'est cool les tasses.
+{% include icon/tasse icon="TasseDiscord"%} Nous avons aussi un **[serveur Discord](https://discord.gg/{{ site.social.discord }}){:rel="nofollow"}**, la place à être si vous voulez jouer à nos jeux dans les meilleures conditions possibles, ou discuter entre amis dans une ambiance sereine... On plaisante, y'a que du drama là-bas. Mais y'a aussi plein de tasses. C'est cool les tasses.
 
-{% include icon/tasse icon="TasseTwitter"%} Nous disposons également d'un **[Twitter](https://twitter.com/{{ site.social.twitter }})**, mais on ne sait pas encore quoi faire de ce truc. Vous pouvez vous abonner quand même.
+{% include icon/tasse icon="TasseTwitter"%} Nous disposons également d'un **[Twitter](https://twitter.com/{{ site.social.twitter }}){:rel="nofollow"}**, mais on ne sait pas encore quoi faire de ce truc. Vous pouvez vous abonner quand même.
 
 *Les liens sont en haut à droite.*
