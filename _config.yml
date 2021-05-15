@@ -16,12 +16,10 @@
 
 title: Les Tassés de Café
 
-description: >- # this means to ignore newlines until "baseurl:"
-  This is a test
+description: |
+  Dans ce bar à jeux virtuel ouvert depuis 2009, la Délégation formée par Chris Antem et Braxer cherche à convertir tout ce qui existe à la Tassitude, un art de vivre consistant à balancer des tasses sur tout ce qui existe.
 
-url: "https://l5sqvtohd5xk2w5q.projects.vcz.fr" # the base hostname & protocol for your site, e.g. http://example.com
-
-twitter_username: TassesDeCafe
+url: "https://l5sqvtohd5xk2w5q.projects.vcz.fr"
 
 social:
   twitter: TassesDeCafe
