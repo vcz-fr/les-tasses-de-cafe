@@ -1,8 +1,7 @@
 <header>
-    <a href="/"><img id="logo" src="/assets/img/logo.png"></a><!--
-    --><span id="random-tagline">Tasses et sel depuis 2009</span>
+    <a href="/"><img id="logo" src="/assets/img/logo.png"></a><span id="random-tagline">Tasses et sel depuis 2009</span>
     <div id="social-icons">
-        {% if site.social.discord != null %}<a href="https://discord.gg/{{ site.social.discord }}" target="_blank" rel="nofollow"><img alt="Discord logo" src="/assets/img/social/discord.svg"></a>{% endif %}
-        {% if site.social.twitter != null %}<a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" rel="nofollow"><img alt="Twitter logo" src="/assets/img/social/twitter.svg"></a>{% endif %}
+        {%- if site.social.discord != null -%}<a href="https://discord.gg/{{ site.social.discord }}" target="_blank" rel="nofollow" class="icon"><img alt="Discord logo" src="/assets/img/social/discord.svg"></a>{%- endif -%}
+        {%- if site.social.twitter != null -%}<a href="https://twitter.com/{{ site.social.twitter }}" target="_blank" rel="nofollow" class="icon"><img alt="Twitter logo" src="/assets/img/social/twitter.svg"></a>{%- endif -%}
     </div>
 </header>
