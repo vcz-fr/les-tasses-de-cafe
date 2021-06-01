@@ -25,9 +25,25 @@ social:
   twitter: TassesDeCafe
   discord: xeQxeMxBxf
 
+paginate: 5
+paginate_path: "/completement-tasses/page-:num/"
+
 # Build settings
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+kramdown:
+  input: GFM
+  smart_quotes: lsquo,rsquo,laquo,raquo
+  highlighter: rouge
+
+defaults:
+  - scope:
+      path: completement-tasses/_posts
+    values:
+      layout: post
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
