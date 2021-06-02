@@ -192,7 +192,7 @@ seulement si vous me laisserez tranquille après ?
 
 Vous êtes d'accord ? Huh, je n'ai même pas eu à négocier, c'est cool.
 
-Et bien [la suite, ce sera par ici]({% post_url completement-tasses/2021-06-01-le-debut-des-zaricots-la-suite %}) s'il
+Et bien [la suite, ce sera par ici]({% post_url completement-tasses/2021-06-02-le-debut-des-zaricots-la-suite %}) s'il
 vous plaît.
 
 _\*Le curieux personnage part dans la direction opposée à celle par laquelle il est venu. À moins que ce ne soit la même

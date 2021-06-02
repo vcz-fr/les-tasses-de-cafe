@@ -11,14 +11,9 @@ title: "Complètement Tassés !"
 <h2>Les articles de la page {{ paginator.page }}</h2>
 
 {% for post in paginator.posts %}
-<p>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <p>
-        Posted {{ post.date | date: "%A %B %d, %Y" }}
-    </p>
-
+<div class="post-list-item">
+    <p><a href="{{ post.url }}">{{ post.title }}</a> par {{ post.author }}, le {{ post.date | date: '%d/%m/%Y' }}</p>
     <blockquote>{{post.excerpt | strip_html | truncatewords: 100}}</blockquote>
-
-    <p><i><a href="{{ post.url }}">Read more&hellip;</a></i></p>
-</p>
+    <p><i><a href="{{ post.url }}">Lire plus&hellip;</a></i></p>
+</div>
 {% endfor %}
