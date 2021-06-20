@@ -111,4 +111,4 @@ La première personne qui devine la personnalité devient saltimbanque. Celui qu
 🗓️ **Le dimanche à 21h**, le compteur s'arrête et vous gagnez une {% include icon/tasse icon="TasseBlanche" %} si vous avez marqué un point, et deux {% include icon/tasse icon="TasseBlanche" %} si vous en avez au moins trois.
 *La Délégation est susceptible, et donc peut modifier le cours du jeu s'ils estiment que c'est nécessaire.*
 
-📼 Les thèmes qu'on a déjà fait mais dont vous pouvez vous resservir : Personnalités célèbres, Villes, Films, Fruits et légumes.
+📼 Les thèmes qu'on a déjà fait mais dont vous pouvez vous resservir : Personnalités célèbres, Villes, Films, Fruits et légumes, Titres de chansons, métiers, Sports.
