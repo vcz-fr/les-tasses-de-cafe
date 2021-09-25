@@ -418,6 +418,8 @@ const taglines = [
     "https://danstonchat.com/19936.html",
     "Il faut rendre à La Délégation ce qui est à César.",
     "La Tassitude, c'est tout ce dont vous n'avez pas besoin"
+    "Un projet en bêta tenu par des bêtas"
+    "Des slogans de boxe."
 ];
 
 const generateRandomInteger = (min = 0, max = 1) => {
