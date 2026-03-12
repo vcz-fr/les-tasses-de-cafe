@@ -420,7 +420,8 @@ const taglines = [
     "La Tassitude, c'est tout ce dont vous n'avez pas besoin",
     "Un projet en bêta tenu par des bêtas",
     "Des slogans de boxe.",
-    "La première stop down de l'industrie."
+    "La première stop down de l'industrie.",
+    "Jamais plus loin, jamais plus haut, jamais plus fort."
 ];
 
 const generateRandomInteger = (min = 0, max = 1) => {
